@@ -1,0 +1,11 @@
+The National Patients Sample dataset provided by the Health Insurance Review & Assessment Service (HIRA-NPS) is a ~~. This dataset . It has been sampled in a statistically significant manner to accurately represent the demographic characteristics of the Republic of Korea in a 1/33 scale.
+Our dataset consists of # visits taken by # patients in 2014 and # in 2015. We narrow our scope to patients with
+
+We add details of the field variables for each table in the Supplementary section.
+
+[Fig ?] Relation diagram of tables 200, 300, 400 and 530
+
+
+Our preprocessing pipeline goes as follows:
+We first create a list containing information of every medical event of every patient if it involves either an outpatient visit or hospitalization. We assume that a patient is involved in at least one event a day and remove redundant events.
+For each patient we created a sequence of events, where each event contains information regarding the diagnosed sickness, treatment, and prescriptions. In our dataset, the diversity of ~~ resulted in 7000 different sickness codes and ~~. In order to reduce sparsity, we applied various methods for reducing the number of required codes. For treatment, we used the 500 most frequent codes, which covered 96.1% of all data, and set the rest to unknown. We applied the same approach by selecting the 639? most frequent prescriptions codes. For diagnosed sicknesses, we followed the organized as in Korea Informative Classification of Diseases. We were able to reduce # codes into 267 categories.
