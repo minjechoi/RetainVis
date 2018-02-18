@@ -1,5 +1,6 @@
 import pickle
 import os
+import numpy as np
 
 # removes values corresponding to "unknown"
 def remove_unknown(lst):
@@ -42,3 +43,13 @@ def list_to_inputs_targets(input_list):
         inputs.append(tup[2])
         targets.append(tup[3])
     return inputs, targets
+
+# convert date to number of days
+def date_converter(date):
+    out = 0
+    days = np.array([31,28,31,30,31,30,31,31,30,31,30,31])
+    date = date%10000 # remove year
+    month = int(date/100)
+    out += days[:month-1].sum()
+    out += date%100
+    return out
