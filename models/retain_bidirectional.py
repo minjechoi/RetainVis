@@ -57,29 +57,7 @@ class RETAIN(nn.Module):
         outputs = outputs.sum(1) # [b x hidden]
         return self.W_out(outputs) # [b x num_classes]
 
-    # compute: it was used for original setting
-#    def compute(self, last_embedded, Beta, alpha):
-#        b,seq,_ = embedded.size() # get sizes
-#        outputs = (embedded*Beta)*alpha.unsqueeze(2).expand(b,seq,self.hidden_size)
-#        return self.W_out(outputs.view(b*seq,self.hidden_size)) # [bxseq x classes]
-
     def list_to_tensor(self,inputs): # deals with input preprocessing
-        # # ver 1
-        # embedded = []
-        # for sample in inputs:
-        #     sample_embedding = []
-        #     for visit in sample:
-        #         visit = Variable(torch.LongTensor(visit))
-        #         if self.cuda_flag:
-        #             visit = visit.cuda()
-        #         visit = self.emb(visit).sum(0)
-        #         sample_embedding.append(visit)
-        #     sample_embedding = torch.stack(sample_embedding,0)
-        #     #print(sample_embedding.size())
-        #     embedded.append(sample_embedding)
-        # embedded = torch.stack(embedded,0)
-        # del visit,sample_embedding
-        # return embedded
 
         # ver 2
         input_tensor = Variable(torch.Tensor(len(inputs),len(inputs[0]),1400).zero_())
@@ -92,17 +70,6 @@ class RETAIN(nn.Module):
         return input_tensor
         # embedded =  torch.mm(input_tensor, self.emb) # [samples*sequences, hidden]
         # return embedded.view(len(inputs),len(inputs[0]),-1)
-
-    # def interpret(self,inputs,u,j,k,t):
-    #     # u: user number, j: visit number, k: input element number, t: target sickness
-    #     a = self.alpha[u][j] # [1]
-    #     B = self.Beta[u][j] # [h]
-    #     W_emb = self.emb[k] # [h]
-    #     W = self.W_out.weight[t] # [h]
-    #     # b = self.W_out.state_dict()['bias'][t]
-    #     x = inputs[u][j][k] # [1]
-    #     out = (a*torch.dot(W,(B*W_emb))*x)
-    #     return out
 
     # fixed version of interpret
     def interpret(self,u,v,i,o):
