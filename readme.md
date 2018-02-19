@@ -10,3 +10,4 @@ Dataset:
 
 Baseline model:
 - RETAIN: An Interpretable Predictive Model for Healthcare using Reverse Time Attention Mechanism (NIPS'16). Choi et al.
+- Patient Subtyping via Time-Aware LSTM Networks (KDD'17). Baytas et al.
