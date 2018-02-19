@@ -2,6 +2,7 @@ import pickle
 import numpy as np
 import random
 import os
+from functions import date_converter, decay_fn
 
 class DataLoader:
 
@@ -46,13 +47,23 @@ class DataLoader:
         self.batches = self.batches[self.batch_size:]
         self.inputs = []
         self.targets = []
+        self.dates = []
         for tup_list in inputs_and_labels:
             tmp1 = []
             tmp2 = []
+            tmp3 = []
+            prev_date = 0
             for tup in tup_list[:self.max_seq_length]:
                 date, fom, out_list, out = tup
+                date = date_converter(date)
                 tmp1.append(out_list)
                 tmp2.append(out)
+                tmp3.append(decay_fn(date - prev_date,1))
+                prev_date = date
+            tmp3 = np.array(tmp3)
+            tmp3[0] = 1.0
             self.inputs.append(tmp1)
             self.targets.append(tmp2)
-        return self.inputs, self.targets
+            self.dates.append(tmp3)
+        self.dates = np.array(self.dates, dtype=float)
+        return self.inputs, self.targets, self.dates
