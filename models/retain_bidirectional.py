@@ -35,7 +35,7 @@ class RETAIN(nn.Module):
         outputs1 = self.RNN1(embedded) # [b x seq x 128*2]
 #         print(outputs1)
         E = self.wa(outputs1[0].contiguous().view(-1, self.hidden_size*2)) # [b*seq x 1]
-        alpha = F.softmax(E.view(b,seq)) # [b x seq]
+        alpha = F.softmax(E.view(b,seq),1) # [b x seq]
         if self.release:
             self.alpha = alpha
 
