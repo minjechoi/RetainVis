@@ -57,6 +57,8 @@ class RETAIN(nn.Module):
         E = self.wa2(outputs3[0].contiguous().view(-1, self.hidden_size*2)) # [b*seq x 1]
         alpha2 = F.softmax(E.view(b,seq),1).unsqueeze(2) # [b, seq, 1]
         alpha2 = alpha2[:,1:,:] # [b,seq-1,1]
+        if self.release:
+            self.alpha2 = alpha2
 
         # targets: list of list
         targets = Variable(torch.LongTensor(targets)[:,:-1],requires_grad=False)
@@ -71,6 +73,10 @@ class RETAIN(nn.Module):
 
         lever = outputs3[0].sum(1) # [b, 128]
         lever = F.softmax(self.w_lever(lever),1) # [b,2]
+        if self.release:
+            self.lever = lever
+            self.outputs_calc = outputs_calc
+            self.outputs_copy = outputs_copy
 
         outputs = outputs_calc*lever[:,0:1].expand_as(outputs_calc) + outputs_copy*lever[:,1:2].expand_as(outputs_copy) # [b, num_classes]
         return outputs

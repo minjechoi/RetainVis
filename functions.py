@@ -53,3 +53,12 @@ def date_converter(date):
     out += days[:month-1].sum()
     out += date%100
     return out
+
+def decay_fn(time,ver=1):
+    if ver==1:
+        if time==0:
+            return 1
+        else:
+            return 1.0/time
+    elif ver==2:
+        return 1/np.log(np.e+time)
