@@ -1,1387 +1,1400 @@
-0,Unknown
-1,재진진찰료-의원 보건의료원 내 의과
-2,초진진찰료-의원 보건의료원 내 의과
-3,외래환자 의약품관리료-1일분(의원 치과의원 보건의료원 의·치과)
-4,피하또는근육내주사
-5,재진진찰료-한의원 보건의료원 내 한의과
-6,경혈침술(2부위이상)
-7,심층열치료[1일당]
-8,표층열치료(심층열동시)
-9,투자법 침술
-10,만성질환관리료
-11,경피적전기신경자극치료[TENS]
-12,재진진찰료-병원  요양병원·한방병원·치과병원 내 의과
-13,재진진찰료-종합병원
-14,온냉경락요법-경피적외선조사요법
-15,당검사(반정량)
-16,재진진찰료-치과의원  보건의료원 내 치과
-17,관절내 침술
-18,간섭파전류치료[ICT]
-19,세극등현미경검사
-20,초진진찰료-치과의원  보건의료원 내 치과
-21,백혈구수
-22,헤마토크리트
-23,혈색소[광전비색법]
-24,혈소판수
-25,적혈구수
-26,ALT[SGPT]
-27,AST[SGOT]
-28,크레아티닌
-29,경혈침술(1부위)
-30,요소질소[NPN포함]
-31,재진진찰료-상급종합병원
-32,당검사(정량)
-33,부항술(건식부항)-유관법
-34,침전기자극술
-35,알부민
-36,백혈구백분율(혈액)
-37,총단백정량
-38,총빌리루빈정량
-39,외래환자 의약품관리료[방문당]-병원  치과병원  요양병원·한방병원 내 의·치과
-40,정맥내점적주사-100ml∼500ml[1병또는포장단위당]
-41,알칼리포스파타제
-42,총콜레스테롤정량
-43,적외선치료[1일당]
-44,단순처치[1일당]
-45,정맥내유치침
-46,초진진찰료-병원  요양병원·한방병원·치과병원 내 의과
-47,포스트(기성품)
-48,외래환자 의약품관리료[방문당]-종합병원
-49,전해질(포타슘)
-50,전해질(소디움)
-51,초진진찰료-종합병원
-52,표층열치료
-53,전해질(염소)
-54,부항술(자락관법)
-55,상기도증기흡입치료
-56,구술(간접구)-간접애주구
-57,수액제주입로를통한주사
-58,재진-물리치료 주사등을 시술받은 경우
-59,치근단1매
-60,흉부[직접]1매
-61,변증기술료
-62,일반식(1식당)
-63,요일반검사10종까지
-64,한방외래·퇴원환자조제료(1일분/1회당)
-65,지질(트리글리세라이드)
-66,전해질(총칼슘)
-67,요산
-68,안압측정-기타
-69,심전도검사-심전도기록및판독[표준12유도]
-70,C-반응성단백(정량)
-71,요침사현미경검사
-72,γ-GTP
-73,전해질(인)
-74,재진진찰료-의원-만성질환관리제
-75,정맥내점적주사-501ml∼1000ml[1병또는포장단위당]
-76,HDL콜레스테롤
-77,개인정신치료(지지요법)
-78,척추간 침술
-79,입원환자 조제·복약지도료(1일당)
-80,외래환자 의약품관리료[방문당]-상급종합병원
-81,Unknown
-82,파노라마 일반
-83,재활저출력레이저치료[1일당]
-84,프로트롬빈시간
-85,굴절및조절검사[안경처방전교부포함]
-86,헤모글로빈A1C
-87,정맥내일시주사[1일당]
-88,활성화부분트롬보플라스틴시간
-89,LDH
-90,근관세척[1근관1회당]
-91,온냉경락요법-경피경근온열요법
-92,의료질평가지원금-교육수련분야 1등급(외래)
-93,초진진찰료-상급종합병원
-94,영상저장및전송시스템(FULL PACS)이용 1매(단순영상)-종합병원
-95,하기도증기흡입치료[1일당]
-96,치석제거[전악]
-97,정밀안저검사[편측]
-98,혈액투석시 사용된 재료대와 약제(투석액 제외)[1회당]
-99,혈액투석[1회당]
-100,혈액총이산화탄소함량
-101,근관확대[1근관1회당]
-102,치과침윤마취(1/3악당)
-103,간헐적견인치료-골반견인
-104,LDL콜레스테롤
-105,관절강내주사
-106,적혈구침강속도-Infrared Ray법  Spin법 등을 이용한 신속검사법
-107,치과전달마취(하치조신경블록)
-108,즉일충전처치[1치당]
-109,치과전달마취(후상치조신경블록)
-110,영상저장및전송시스템(FULL PACS)이용 2매(단순영상)-종합병원
-111,갑상선자극호르몬
-112,영상저장및전송시스템(FULL PACS)이용 1매(단순영상)-상급종합병원
-113,요침사검사[유세포분석법]
-114,치석제거[1/3악당]
-115,단순운동치료[1일당]
-116,B형간염표면항원정성검사(정밀)
-117,유리싸이록신
-118,질강처치
-119,기관내삽관에의한폐쇄순환식전신마취(06:01-06:15)
-120,B형간염표면항체(정밀)
-121,미생물현미경검사[일반염색]-그람염색
-122,의료질평가지원금-의료 질 및 환자안전 공공성 의료전달체계분야-상급종합병원 종합병원(전문병원 제외)-1-나등급-상급종합병원(외래)
-123,흉부[직접]2매
-124,총아밀라아제
-125,의료질평가지원금-연구개발분야 2등급(외래)
-126,일반식 영양사  조리사  선택식단  직영 가산(1식당)
-127,CPK
-128,수술후처치[1일당]-단순처치
-129,Unknown
-130,Rho(D)혈액형검사-수기법
-131,요일반검사7종까지
-132,의료질평가지원금-연구개발분야 1등급(외래)
-133,발치술[1치당]-구치
-134,직접빌리루빈정량
-135,상부소화관내시경검사
-136,복합레진충전(글래스아이노머시멘트(II)충전포함)-1면
-137,영상저장및전송시스템(FULL PACS)이용(특수영상)-종합병원
-138,척수신경말초지차단술-견갑신경
-139,구술(간접구)-기기구술
-140,발수[1근관당]
-141,근관와동형성[1근관당]
-142,영상저장및전송시스템(FULL PACS)이용 2매(단순영상)-병원급 의·치과
-143,영상저장및전송시스템(FULL PACS)이용 1매(단순영상)-병원급 의·치과
-144,복강내 침술
-145,영상저장및전송시스템(FULL PACS)이용 2매(단순영상)-상급종합병원
-146,Unknown
-147,부항술(자락관법)(2부위이상)
-148,영상저장및전송시스템(FULL PACS)이용(특수영상)-상급종합병원
-149,복부2매
-150,간헐적견인치료-경추견인
-151,일반식 영양사  조리사  직영 가산(1식당)
-152,미생물배양및동정검사
-153,기본 안저촬영[편측]
-154,트리요도타이로닌
-155,요추2매
-156,B형간염표면항원정성검사(일반)
-157,의료질평가지원금-교육수련분야 3등급(외래)
-158,치근활택술[1/3악당]
-159,가압근관충전[1근관당]
-160,근관장측정검사[1근관당]
-161,A B O혈구혈액형검사
-162,응급의료관리료-분야별전문응급의료센터 지역응급의료센터
-163,피부과처치(대상포진)-9%이하범위[1일당]
-164,일반식 영양사  조리사  선택식단 가산(1식당)
-165,외래환자 조제·복약지도료-내복약(26일분 이상 30일분/1회당)
-166,경막외신경차단술-일회성차단(요추및천추)
-167,외래환자 의약품관리료-16~30일분(의원 치과의원 보건의료원 의·치과)
-168,구술(직접구)-직접애주구
-169,각막곡율측정
-170,개인정신치료(집중요법)
-171,치주소파술[1/3악당]
-172,치료식(1식당)
-173,정맥내점적주사-100ml미만[1병또는포장단위당]
-174,충전물연마[1치당]
-175,슬관절2매
-176,파라핀욕[1일당]
-177,근관성형[1근관1회당]
-178,의료질평가지원금-의료 질 및 환자안전 공공성 의료전달체계분야-상급종합병원 종합병원(전문병원 제외)-2등급-상급종합병원(외래)
-179,Unknown
-180,B형간염표면항체(일반)
-181,발치술[1치당]-유치
-182,눈물분비기능검사
-183,러버댐장착[1악당]
-184,산소흡입[1일당]
-185,적혈구침강속도-Westergren  Wintrobe Tube 등을 이용한 육안검사법
-186,외래환자 의약품관리료-14일분(의원 치과의원 보건의료원 의·치과)
-187,Unknown
-188,영상저장및전송시스템(FULL PACS)이용 4매(단순영상)-병원급 의·치과
-189,경피적혈액산소포화도측정[1일당]
-190,복합레진충전(글래스아이노머시멘트(II)충전포함)-2면
-191,안압측정-정밀측정
-192,의료질평가지원금-연구개발분야 3등급(외래)
-193,일반식 본인일부부담 급식비(1식당)
-194,Unknown
-195,의료질평가지원금-의료 질 및 환자안전 공공성 의료전달체계분야-상급종합병원 종합병원(전문병원 제외)-4등급(외래)
-196,리파아제
-197,치주치료후처치[1구강1회당]-치석제거 치근활택술 치주소파술 후
-198,혈액가스분석[1회당]
-199,Barbed-Broach
-200,척수신경말초지차단술-좌골신경
-201,매독반응검사(정밀)
-202,매독반응검사(VDRL RPR ART)
-203,A B O혈청혈액형검사
-204,의료질평가지원금-의료 질 및 환자안전 공공성 의료전달체계분야-상급종합병원 종합병원(전문병원 제외)-5등급(외래)
-205,CK-MB
-206,중추신경계발달재활치료
-207,의료질평가지원금-교육수련분야 2등급(외래)
-208,부항술(건식부항)-섬관법
-209,필요인력확보(일당)
-210,의료질평가지원금-의료 질 및 환자안전 공공성 의료전달체계분야-상급종합병원 종합병원(전문병원 제외)-3등급-상급종합병원(외래)
-211,골반1매
-212,퇴원환자조제료-내복약(7일분/1회당)
-213,치주낭측정검사[1/3악당]
-214,전해질(마그네슘)
-215,요일반검사4종까지
-216,Unknown
-217,의료급여-정신건강의학과 투약료(1일당)
-218,의료급여-정신건강의학과 외래(1일당)
-219,요추4매
-220,결장경검사
-221,영상저장및전송시스템(FULL PACS)이용 3매(단순영상)-병원급 의·치과
-222,경추2매
-223,일반식가산-조리사(1식당)
-224,운동치료-복합운동치료[1일당]
-225,일반식가산-영양사(1식당)
-226,후두경검사
-227,비인강경검사
-228,한방외래·퇴원환자조제료(2일분/1회당)
-229,영상저장및전송시스템(FULL PACS)이용 4매(단순영상)-종합병원
-230,외래환자 조제·복약지도료-내복약(3일분/1회)
-231,견관절2매
-232,트로포닌I
-233,응급의료관리료-지역응급의료기관
-234,외래환자 의약품관리료-7일분(의원 치과의원 보건의료원 의·치과)
-235,마취중말초산소포화도감시
-236,의료급여-혈액투석 정액수가(1회당)
-237,HIV항체검사(정밀)
-238,영상저장및전송시스템(FULL PACS)이용 3매(단순영상)-종합병원
-239,불규칙항체검사(선별)
-240,병리조직검사[1장기당]-생검(1-3개)
-241,치관수복물또는보철물의제거[1치당]-간단한것
-242,외래환자 조제·복약지도료-내복약(1일분/1회)
-243,Unknown
-244,요침사현미경검사[Wet Smear(Direct Smear)]
-245,일반전산화단층영상진단-복부[골반포함]-조영제를사용하는경우
-246,병원  치과병원  한방병원 내 의·치과 7등급간호관리료기본입원료-의료취약지역 서울특별시및광역시구지역소재요양기관이아닌경우
-247,인  후두소작술
-248,Unknown
-249,HIV항체검사(HIV 항원/항체 동시 선별검사)
-250,Unknown
-251,Unknown
-252,순음청력계기에의한검사-표준순음청력검사
-253,심전도침상감시[1일당]
-254,치관수복물또는보철물의제거[1치당]-복잡한것
-255,재진진찰료-치과병원  병원·요양병원·한방병원 내 치과
-256,와동형성[1치당]-2면
-257,건초내주사
-258,정밀지속적점적주입위한InfusionPump사용료[기기당1일1회]
-259,족골2매
-260,유치 카테터 설치
-261,골밀도검사[재료대포함]-양방사선(광자) 골밀도검사(2부위이상)
-262,Unknown
-263,전해질(이온화칼슘)
-264,아말감충전[1치당]-2면
-265,부목-단하지[하퇴로부터 족부까지]
-266,병리조직검사[1장기당]-절편이필요한경우(파라핀블록:6개이하)
-267,수골2매
-268,협의진찰료-종합병원 상급종합병원에 설치된 경우를 제외한 치과대학부속치과병원 내 의·치과
-269,슬관절4매
-270,병변내주입요법-25㎠미만
-271,훼리틴
-272,슬관절3매
-273,알파피토프로테인(정밀)
-274,족관절2매
-275,신경간내주사
-276,화상처치-열탕 화염 동상 화학화상등의경우(9%이하의범위)수.족 지에 준하는범위
-277,외이도이물또는이구전색제거[간단한것은 기본진료료에 포함]-복잡한것
-278,척수신경말초지차단술-대퇴신경
-279,철
-280,미량알부민검사(정량)
-281,청력검사[임피단스오디오메트리에의한검사]-고막운동성계측
-282,초진진찰료-치과병원  병원·요양병원·한방병원 내 치과
-283,적혈구분포계수
-284,척수신경총 신경근및신경절차단술-척수신경후지
-285,복부1매
-286,가족치료(개인치료)
-287,삼투압농도
-288,부항술(건식부항)-주관법
-289,전립선특이항원PSA
-290,분구침술(이침 두침 족침 수침 수지침 면침 비침 완과침 피내침 피부침 자석침)
-291,화상처치-9%이하의범위[수족지 안면 경부 성기를 포함하지 아니한 경우]
-292,한냉치료(콜드팩)
-293,수관절2매
-294,근막동통유발점주사자극치료[1일당]-2부위이상각각실시
-295,일반전산화단층영상진단-두부-조영제를사용하지않는경우
-296,작업및오락요법[음악 서화 조각 운동 작업등]
-297,철결합능
-298,RA factor(정량)
-299,Unknown
-300,작업치료-복합작업치료
-301,임상병리검사종합검증료
-302,종합병원2등급간호관리료적용기본입원료
-303,족관절3매
-304,치면열구전색술[1치당]
-305,갑상선자극호르몬TSH-핵의학적방법
-306,혈소판분포계수
-307,병원  치과병원  한방병원 내 의·치과 7등급간호관리료적용기본입원료-서울특별시및광역시구지역소재요양기관
-308,영상저장및전송시스템(FULL PACS)이용 5매(단순영상)-병원급 의·치과
-309,Unknown
-310,티눈제거술(전기소작 냉동응고술 또는 약물밀봉대)
-311,근막동통유발점주사자극치료[1일당]
-312,작업치료-특수작업치료
-313,보통처치[1치1회당]
-314,영상저장및전송시스템(FULL PACS)이용(특수영상)-병원급 의·치과
-315,Reamer 또는 File
-316,호흡기능검사-기류용적폐곡선[기본폐기능검사포함]
-317,퇴원환자조제료-내복약(3일분/1회당)
-318,척수신경총 신경근및신경절차단술-후지내측지
-319,구강내소염수술(치은농양 치관주위농양절개등)
-320,각막생체염색하 세극등현미경검사[훌루오레신]
-321,재활기능치료-보행치료
-322,신장요관방광단순촬영 1매
-323,외래환자 조제·복약지도료-내복약(14일분/1회)
-324,산모식(1식당)
-325,협의진찰료-의과 치과
-326,늑골3매
-327,기관내삽관에의한폐쇄순환식전신마취관리기본[1시간기준]
-328,부비동1매
-329,화상의가피절제술-9%이하의범위[수.족 지에준하는범위]
-330,경추4매
-331,Unknown
-332,유리싸이록신-핵의학적방법
-333,협의진찰료-상급종합병원 상급종합병원에 설치된 치과대학부속치과병원 내 의·치과
-334,부목-단상지[전완으로부터 수부까지]
-335,C형간염항체(정밀)
-336,수지골2매
-337,족골3매
-338,Unknown
-339,한방외래·퇴원환자조제료(3일분/1회당)
-340,의원 치과의원 보건의료원 의·치과 입원료
-341,Unknown
-342,기본식사-일반식(1식당)-병원 요양병원 치과병원 한방병원
-343,기타관장(글리세린관장 생리식염수관장 에스에스관장등)[관장제포함]
-344,척수신경말초지차단술-액와하부신경
-345,주관절2매
-346,Unknown
-347,화상처치-9%이하의범위[수족지 안면 경부 성기를 포함하는경우]
-348,부비강입구부경검사
-349,교차시험[단위당산정]
-350,재활기능치료-매트및이동치료
-351,와동형성[1치당]-1면
-352,발치술[1치당]-전치
-353,외래환자 조제·복약지도료-내복약(7일분/1회)
-354,보철물재부착[1치당]
-355,태아성암항원CEA
-356,요추5매 또는 그 이상
-357,염증성처치[1일당]
-358,일반전산화단층영상진단-흉부-조영제를사용하는경우
-359,종합병원3등급간호관리료적용기본입원료
-360,Unknown
-361,주사제 무균조제료(1건당)-주사용 항암제
-362,기능적전기자극치료
-363,교합조정술[1치당]
-364,일상생활동작훈련치료[1일당]
-365,혈구형태[말초혈액도말]
-366,외래환자 의약품관리료-3일분(의원 치과의원 보건의료원 의·치과)
-367,일반전산화단층영상진단-복부-이중 삼중 삼차원CT CT혈관조영 Cine CT
-368,기관내삽관에의한폐쇄순환식전신마취유지[1시간초과15분당]
-369,수술후 튜브삽입에 의한 자연 배액감시 및 처치[1일당]
-370,수관절4매
-371,일반식 조리사  직영 가산(1식당)
-372,응급의료관리료-중앙응급의료센터 권역응급의료센터
-373,외래환자 조제·복약지도료-내복약(51일분 이상 60일분/1회당)
-374,수골3매
-375,상급종합병원2등급간호관리료적용기본입원료
-376,아말감충전[1치당]-1면
-377,HIV항체검사(일반)
-378,외래환자 조제·복약지도료-외용약(내복약과 동시)(1회당)
-379,항암제주입-정맥내점적주사-100ml∼500ml[1병또는포장단위당]
-380,Unknown
-381,관절천자[간단한검사또는관절액이동술포함][편측]
-382,출혈시간
-383,직장수지검사
-384,척수신경말초지차단술-액와신경
-385,기본식사-일반식(1식당)-종합병원
-386,망상적혈구수[유세포분석법]
-387,자동시야검사[편측]
-388,외래환자 조제·복약지도료-내복약(2일분/1회)
-389,협의진찰료-병원  한방병원  치과병원 내 의·치과
-390,미생물배양 동정및항균제최소억제농도검사(혈액 체액의혐기성배양)
-391,협의진찰료-요양병원 보건의료원 내 한의과
-392,D-dimer검사(정량)
-393,미생물배양 동정및항균제최소억제농도검사(비뇨 생식기검체)
-394,섬유소원검사(기능적)
-395,신경학적검사-일반검사
-396,영상저장및전송시스템(FULL PACS)이용 3매(단순영상)-상급종합병원
-397,퇴원환자조제료-내복약(5일분/1회당)
-398,안구광학단층촬영[편측]
-399,유산
-400,트리요도타이로닌-핵의학적방법
-401,요천추2매
-402,영상저장및전송시스템(FULL PACS)이용 4매(단순영상)-상급종합병원
-403,족관절4매
-404,C-peptide
-405,C-반응성단백(정성)
-406,Unknown
-407,외래환자 조제·복약지도료-외용약(단독투약)(1회당)
-408,견관절3매
-409,상급종합병원3등급간호관리료적용기본입원료
-410,기관내삽관에의한폐쇄순환식전신마취(05:31-05:45)
-411,면역조직(세포)화학검사[종목당]
-412,미생물약제감수성검사(항균제최소억제농도검사)
-413,Unknown
-414,Unknown
-415,척수신경말초지차단술-외측대퇴피신경
-416,인성검사-간이정신진단검사
-417,도뇨[1회당]
-418,퇴원환자조제료-내복약(14일분/1회당)
-419,영상저장및전송시스템(FULL PACS)이용 5매(단순영상)-종합병원
-420,Unknown
-421,B형간염DNA정량검사(실시간중합효소연쇄반응법)
-422,척수신경총 신경근및신경절차단술-선택적신경근
-423,Unknown
-424,혈액관리료[Unit당]
-425,직장경검사
-426,발치술[1치당]-난발치
-427,CA-19-9
-428,첩모발거술[다수]
-429,견관절4매
-430,일반전산화단층영상진단-척추-조영제를사용하지않는경우
-431,암모니아
-432,눈물배출기능검사
-433,시신경섬유층사진[편측]
-434,바이러스항체[바이러스별각각산정](정밀)-IgM
-435,Unknown
-436,병원  치과병원  한방병원 내 의·치과 기본입원료
-437,부목-수지부
-438,결장경하 종양 수술-폴립 절제술
-439,Unknown
-440,미생물배양및동정검사(항산균배양및동정검사)-고체배지 이용
-441,갑개소작술  비인강소작술
-442,언어청각검사
-443,전립선맛사지
-444,전안부촬영[편측]
-445,슬관절1매
-446,입체조형치료[1회당]
-447,고관절2매
-448,퇴원환자조제료(내복약과동시투약)(1회당)
-449,Unknown
-450,인지장애군 ADL 4-20  의사1(전문의수50%이상)·간호1등급
-451,A B O 혈액형검사-수기법
-452,결막이물제거술
-453,주관절4매
-454,RA factor(정성)
-455,평형기능검사[Frenzel안경안진검사]-자발및주시안진검사
-456,복합레진충전(글래스아이노머시멘트(II)충전포함)-3면
-457,일반집단정신치료
-458,Unknown
-459,Unknown
-460,치료식 본인일부부담 급식비(1식당)
-461,Helicobacter Pylori검사(내시경하)-CLO Test[UreaseTest]
-462,족골4매
-463,B형간염e항원(정밀)
-464,항산성형광염색 집균도말검사
-465,슬개골1매
-466,요양병원간호사2/3이상 확보(1일당)
-467,흉부[직접]3매
-468,기타 비타민[D3]
-469,Unknown
-470,부갑상선호르몬
-471,바이러스항체[바이러스별각각산정](정밀)-IgG
-472,일반식 직영 가산(1식당)
-473,흉요추2매
-474,평형기능검사[Frenzel안경안진검사]-두위및두위변환안진검사
-475,의료질평가지원금-교육수련분야 1등급(입원)
-476,비강내 침술
-477,짧은 위팔 의지-기능형
-478,각막내피세포검사
-479,흉추2매
-480,일반전산화단층영상진단-흉부-조영제를사용하지않는경우-기타의경우
-481,일반식 영양사  선택식단 가산(1식당)
-482,인공수정체삽입술-일차[백내장수술과동시실시시]
-483,Unknown
-484,일반식 조리사 가산(1식당)
-485,유방-유방촬영2매
-486,B형간염e항체(정밀)
-487,외래환자 의약품관리료-10일분(의원 치과의원 보건의료원 의·치과)
-488,Unknown
-489,요침사검사[이미지분석법]
-490,24시간혈압측정검사[1일당]-24시간 지속적 침상감시
-491,트로포닌T
-492,MAST법에의한면역글로불린E
-493,좌욕[1일당]
-494,흡입배농 및 배액처치[1일당]
-495,백내장및수정체수술-수정체유화술
-496,외래환자 조제·복약지도료-내복약(5일분/1회)
-497,지각과민처치[1치당]-약물도포 이온도입법의경우
-498,수골4매
-499,미생물배양및동정검사(항산균배양및동정검사)-액체배지 이용
-500,Unknown
-501,A00-A09 장 감염 질환
-502,A15-A19 결핵
-503,A20-A28 특정 동물매개의 세균성 질환
-504,A30-A49 기타 세균성 질환
-505,A50-A64 주로 성행위로 전파되는 감염
-506,A65-A69 기타 스피로헤타질환
-507,A70-A74 클라미디아에 의한 기타 질환
-508,A75-A79 리케차병
-509,A80-A89 중추신경계통의 바이러스감염
-510,A90-A99 절지동물매개의 바이러스열 및 바이러스출혈열
-511,B00-B09 피부 및 점막병변이 특징인 바이러스감염
-512,B15-B19 바이러스간염
-513,B20-B24 인체면역결핍바이러스병
-514,B25-B34 기타 바이러스 질환
-515,B35-B49 진균증
-516,B50-B64 원충질환
-517,B65-B83 연충병
-518,B85-B89 이감염증
-519,B90-B94 감염성 및 기생충 질환의 후유증
-520,B95-B98 세균
-521,B99 기타 감염성 질환
-522,C00-C14 입술
-523,C15-C26 소화기관의 악성 신생물
-524,C30-C39 호흡기 및 흉곽내 기관의 악성 신생물
-525,C40-C41 뼈 및 관절연골의 악성 신생물
-526,C43-C44 흑색종 및 기타 피부의 악성 신생물
-527,C45-C49 중피성 및 연조직의 악성 신생물
-528,C50 유방의 악성 신생물
-529,C51-C58 여성 생식기관의 악성 신생물
-530,C60-C63 남성 생식기관의 악성 신생물
-531,C64-C68 요로의 악성 신생물
-532,C69-C72 눈
-533,C73-C75 갑상선 및 기타 내분비선의 악성 신생물
-534,C76-C80 불명확한
-535,C81-C96 림프
-536,C97 독립된(일차성) 여러 부위의 악성 신생물
-537,D00-D09 제자리신생물
-538,D10-D36 양성 신생물
-539,D37-D48 행동양식 불명 또는 미상의 신생물
-540,D50-D53 영양성 빈혈
-541,D55-D59 용혈성 빈혈
-542,D60-D64 무형성 및 기타 빈혈
-543,D65-D69 응고결함
-544,D70-D77 혈액 및 조혈기관의 기타 질환
-545,D80-D89 면역메커니즘을 침범하는 특정 장애
-546,E00-E07 갑상선의 장애
-547,E10-E14 당뇨병
-548,E15-E16 포도당 조절 및 췌장 내분비의 기타 장애
-549,E20-E35 기타 내분비선의 장애
-550,E40-E46 영양실조
-551,E50-E64 기타 영양결핍
-552,E65-E68 비만 및 기타 과다영양
-553,E70-E90 대사장애
-554,F00-F09 증상성을 포함하는 기질성 정신장애
-555,F10-F19 정신활성 물질의 사용에 의한 정신 및 행동장애
-556,F20-F29 정신분열병
-557,F30-F39 기분[정동] 장애
-558,F40-F48 신경증성
-559,F50-F59 생리적 장애 및 신체적 요인들과 수반된 행동증후군
-560,F60-F69 성인 인격 및 행동의 장애
-561,F70-F79 정신지연
-562,F80-F89 정신발달장애
-563,F90-F98 소아기 및 청소년기에 주로 발병하는 행동 및 정서장애
-564,F99 상세불명의 정신장애
-565,G00-G09 중추신경계통의 염증성 질환
-566,G10-G14 일차적으로 중추신경계통에 영향을 주는 계통성 위축
-567,G20-G26 추체외로 및 운동 장애
-568,G30-G32 신경계통의 기타 퇴행성 질환
-569,G35-G37 중추신경계통의 탈수초질환
-570,G40-G47 우발적 및 발작적 장애
-571,G50-G59 신경
-572,G60-G64 다발신경병증 및 말초신경계통의 기타 장애
-573,G70-G73 근신경 이행부 및 근육의 질환
-574,G80-G83 뇌성마비 및 기타 마비증후군
-575,G90-G99 신경계통의 기타 장애
-576,H00-H06 눈꺼풀
-577,H10-H13 결막의 장애
-578,H15-H22 공막
-579,H25-H28 수정체의 장애
-580,H30-H36 맥락막 및 망막의 장애
-581,H40-H42 녹내장
-582,H43-H45 유리체 및 안구의 장애
-583,H46-H48 시신경 및 시각로의 장애
-584,H49-H52 안근
-585,H53-H54 시각장애 및 실명
-586,H55-H59 눈 및 눈부속기의 기타 장애
-587,H60-H62 외이의 질환
-588,H65-H75 중이 및 유돌의 질환
-589,H80-H83 내이의 질환
-590,H90-H95 귀의 기타 장애
-591,I00-I02 급성 류마티스열
-592,I05-I09 만성 류마티스심장질환
-593,I10-I15 고혈압질환
-594,I20-I25 허혈성 심장질환
-595,I26-I28 폐성 심장병 및 폐순환의 질환
-596,I30-I52 기타 형태의 심장병
-597,I60-I69 뇌혈관질환
-598,I70-I79 동맥
-599,I80-I89 달리 분류되지 않은 정맥
-600,I95-I99 순환계통의 기타 및 상세불명의 장애
-601,J00-J06 급성 상기도감염
-602,J09-J18 인플루엔자 및 폐렴
-603,J20-J22 기타 급성 하기도감염
-604,J30-J39 상기도의 기타 질환
-605,J40-J47 만성 하기도질환
-606,J60-J70 외부 요인에 의한 폐질환
-607,J80-J84 주로 간질에 영향을 주는 기타 호흡기질환
-608,J85-J86 하기도의 화농성 및 괴사성 병태
-609,J90-J94 흉막의 기타 질환
-610,J95-J99 호흡계통의 기타 질환
-611,K00-K14 구강
-612,K20-K31 식도
-613,K35-K38 충수의 질환
-614,K40-K46 탈장
-615,K50-K52 비감염성 장염 및 결장염
-616,K55-K63 장의 기타 질환
-617,K65-K67 복막의 질환
-618,K70-K77 간의 질환
-619,K80-K87 담낭
-620,K90-K93 소화계통의 기타 질환
-621,L00-L08 피부 및 피하조직의 감염
-622,L10-L14 수포성 장애
-623,L20-L30 피부염 및 습진
-624,L40-L45 구진비늘장애
-625,L50-L54 두드러기 및 홍반
-626,L55-L59 피부 및 피하조직의 방사선-관련장애
-627,L60-L75 피부부속물의 장애
-628,L80-L99 피부 및 피하조직의 기타 장애
-629,M00-M03 감염성 관절병증
-630,M05-M14 염증성 다발관절병증
-631,M15-M19 관절증
-632,M20-M25 기타 관절장애
-633,M30-M36 전신결합조직장애
-634,M40-M43 변형성 등병증
-635,M45-M49 척추병증
-636,M50-M54 기타 등병증
-637,M60-M63 근육 장애
-638,M65-M68 윤활막 및 힘줄장애
-639,M70-M79 기타 연조직 장애
-640,M80-M85 골밀도 및 구조장애
-641,M86-M90 기타 골병증
-642,M91-M94 연골병증
-643,M95-M99 근골격계통 및 결합조직의 기타 장애
-644,N00-N08 사구체질환
-645,N10-N16 세뇨관-간질질환
-646,N17-N19 신부전
-647,N20-N23 요로결석증
-648,N25-N29 신장 및 요관의 기타 장애
-649,N30-N39 비뇨계통의 기타 질환
-650,N40-N51 남성 생식기관의 질환
-651,N60-N64 유방의 장애
-652,N70-N77 여성 골반내 기관의 염증성 질환
-653,N80-N98 여성생식관의 비염증성 장애
-654,N99 비뇨생식계통의 기타 장애
-655,O00-O08 유산된 임신
-656,O10-O16 임신
-657,O20-O29 주로 임신과 관련된 기타 모성 장애
-658,O30-O48 태아와 양막강 및 가능한 분만 문제와 관련된 산모관리
-659,O60-O75 진통 및 분만의 합병증
-660,O80-O84 분만
-661,O85-O92 주로 산후기에 관련된 합병증
-662,O94-O99 달리 분류되지 않은 기타 산과적 병태
-663,P00-P04 모성 요인과 임신
-664,P05-P08 임신 기간 및 태아발육과 관련된 장애
-665,P10-P15 출산외상
-666,P20-P29 출생전후기에 특이한 호흡기 및 심혈관 장애
-667,P35-P39 출생전후기에 특이한 감염
-668,P50-P61 태아 및 신생아의 출혈성 및 혈액학적 장애
-669,P70-P74 태아 또는 신생아에 특이한 일과성 내분비 및 대사장애
-670,P75-P78 태아 및 신생아의 소화계통 장애
-671,P80-P83 태아 및 신생아의 외피 및 체온조절에 관련되는 병태
-672,P90-P96 출생전후기에 기원한 기타 장애
-673,Q00-Q07 신경계통의 선천기형
-674,Q10-Q18 눈
-675,Q20-Q28 순환계통의 선천기형
-676,Q30-Q34 호흡계통의 선천기형
-677,Q35-Q37 구순열 및 구개열
-678,Q38-Q45 소화계통의 기타 선천기형
-679,Q50-Q56 생식기관의 선천기형
-680,Q60-Q64 비뇨계통의 선천기형
-681,Q65-Q79 근골격계통의 선천기형 및 변형
-682,Q80-Q89 기타 선천기형
-683,Q90-Q99 달리 분류되지 않은 염색체이상
-684,R00-R09 순환계통 및 호흡계통을 침범한 증상 및 징후
-685,R10-R19 소화계통 및 복부를 침범한 증상 및 징후
-686,R20-R23 피부 및 피하조직을 침범하는 증상 및 징후
-687,R25-R29 신경계통 및 근골격계통을 침범하는 증상 및 징후
-688,R30-R39 비뇨계통을 침습한 증상 및 징후
-689,R40-R46 인지
-690,R47-R49 말하기 및 음성에 관한 증상 및 징후
-691,R50-R69 전신 증상 및 징후
-692,R70-R79 진단명 없는 혈액검사상 이상 소견
-693,R80-R82 진단명 없는 요 검사상의 이상소견
-694,R83-R89 진단명 없는 기타 체액
-695,R90-R94 진단명 없는 진단적 영상 및 기능검사 이상소견
-696,R95-R99 불명확하고 미상의 사인
-697,S00-S09 머리의 손상
-698,S10-S19 목의 손상
-699,S20-S29 흉곽의 손상
-700,S30-S39 복부
-701,S40-S49 어깨 및 위팔의 손상
-702,S50-S59 팔꿈치 및 아래팔의 손상
-703,S60-S69 손목 및 손의 손상
-704,S70-S79 둔부 및 대퇴의 손상
-705,S80-S89 무릎 및 아래다리의 손상
-706,S90-S99 발목 및 발의 손상
-707,T00-T07 여러 신체 부위를 포함하는 손상
-708,T08-T14 몸통
-709,T15-T19 자연개구를 통해 들어간 이물의 영향
-710,T20-T25 부위가 명시된 외부 신체 표면의 화상 및 부식
-711,T26-T28 눈 및 내부기관에 국한된 화상 및 부식
-712,T29-T32 상세불명 신체 부위의 다발성 화상 및 부식
-713,T33-T35 동상
-714,T36-T50 약물
-715,T51-T65 기원이 주로 비의약용 물질의 독작용
-716,T66-T78 외인의 기타 및 상세불명의 영향
-717,T79 외상에 의한 특정 조기 합병증
-718,T80-T88 달리 분류되지 않은 외과적 및 내과적 치료의 합병증
-719,T90-T98 손상
-720,U00-U19 불확실한 병인의 신종질환의 잠정적 지정
-721,U20-U33 한의병명(韓醫病名)
-722,U50-U79 한의병증(韓醫病證)
-723,U80-U89 항생제에 내성이 있는 세균감염체
-724,U95-U98 사상체질병증(四象體質病證)
-725,U99 재발한 악성 신생물
-726,V01-V09 운수사고에서 다친 보행자
-727,V10-V19 운수사고에서 다친 자전거 탑승자
-728,V20-V29 운수사고에서 다친 모터사이클 탑승자
-729,V30-V39 운수사고에서 다친 삼륜자동차 탑승자
-730,V40-V49 운수사고에서 다친 승용차 탑승자
-731,V50-V59 운수사고에서 다친 픽업트럭 또는 밴 탑승자
-732,V60-V69 운수사고에서 다친 대형화물차 탑승자
-733,V70-V79 운수사고에서 다친 버스 탑승자
-734,V80-V89 기타 육상 운수사고
-735,V90-V94 수상운수 사고
-736,V95-V97 항공 및 우주 운수 사고
-737,V98-V99 기타 및 상세 불명의 운수사고
-738,W00-W19 낙상
-739,W20-W49 무생물성 기계적 힘에 노출
-740,W50-W64 생물성 기계적 힘에 노출
-741,W65-W74 우발적 익사 및 익수
-742,W75-W84 기타 호흡과 관련된 불의의 위협
-743,W85-W99 전류
-744,X00-X09 연기
-745,X10-X19 열 및 가열된 물질과의 접촉
-746,X20-X29 독액성 동물 및 식물과의 접촉
-747,X30-X39 자연의 힘에 노출
-748,X40-X49 유독성 물질에 의한 불의의 중독 및 노출
-749,X50-X57 과로
-750,X58-X59 기타 및 상세불명의 요인에 불의의 노출
-751,X60-X84 고의적 자해
-752,X85-Y09 가해
-753,Y10-Y34 의도 미확인 사건
-754,Y35-Y36 법적 개입 및 전쟁행위
-755,Y40-Y59 치료시 유해작용을 나타내는 약물
-756,Y60-Y69 외과적 및 내과적 치료중 환자의 재난
-757,Y70-Y82 진단 및 치료에 사용되는 의료장치에 의한 유해효과
-758,Y83-Y84 처치 당시에는 재난의 언급이 없었으나 환자에게 이상반응이나 후에 합병증을 일으키게 한 외과적 및 기타 내과적 처치
-759,Y85-Y89 질병이환과 사망의 외인의 후유증
-760,Y90-Y98 달리 분류된 질병이환 및 사망원인과 관련된 보조요인
-761,Z00-Z13 검사 및 조사를 위해 보건서비스와 접하고 있는 사람
-762,Z20-Z29 전염성 질환과 관련되어 잠재적인 건강 위험이 있는 사람
-763,Z30-Z39 생식과 관련된 상황에서 보건서비스와 접하고 있는 사람
-764,Z40-Z54 특수처치 및 건강보호를 위하여 보건서비스와 접하고 있는 사람
-765,Z55-Z65 사회경제적 및 정신사회적 상황에 관련된 잠재적 보건위험이 있는 사람
-766,Z70-Z76 기타 상황에서 보건서비스와 접하고 있는 사람
-767,Z80-Z99 가족 및 개인 기왕력과 건강상태에 영향을 주는 특정 병태에 관련된 잠재적 건강위험을 가진 사람
-768,Unknown
-769,magnesium trihydrate salt
-770,acarbose
-771,acebrophylline
-772,aceclofenac
-773,acetaminophen
-774,acetaminophen encapsulated
-775,acetylcarnitine HCl
-776,acetylcysteine 
-777,aclatonium napdisilate
-778,acyclovir
-779,afloqualone
-780,alfuzosin HCl
-781,allopurinol
-782,almagate
-783,alprazolam
-784,aluminum hydroxide gel(dried)
-785,ambroxol HCl
-786,amikacin sulfate
-787,amino acids
-788,aminophylline
-789,amitriptyline HCl
-790,amlodipine besylate
-791,amorolfine (HCl)
-792,amoxicillin
-793,arginine sodium
-794,ascorbic acid
-795,asparagine-??-ornithine
-796,aspirin
-797,aspirin encapsulated
-798,aspirin(enteric coated)
-799,atenolol
-800,atorvastatin(calcium)
-801,atropine sulfate
-802,avocado soya unsaponifiables
-803,azelastine HCl
-804,azithromycin
-805,bacillus licheniformis
-806,baclofen
-807,bambuterol HCl
-808,benexate betadex
-809,benidipine HCl
-810,benoxinate HCl
-811,benzonatate
-812,benztropine mesylate
-813,benzydamine HCl
-814,beraprost sodium
-815,betahistine mesylate
-816,betamethasone sodium phosphate
-817,bethanechol chloride
-818,biphenyl dimethyl dicarboxylate
-819,bisacodyl
-820,bisoprolol hemifumarate
-821,brimonidine tartrate
-822,bromazepam
-823,bromhexine HCl
-824,budesonide
-825,bupivacaine HCl
-826,buprenorphine HCl
-827,buspirone HCl
-828,calcitriol
-829,calcium acetate
-830,calcium carbonate
-831,calcium carbonate p.p.t.
-832,calcium polycarbophil
-833,candesartan cilexetil
-834,carbamazepine
-835,carboxymethylcysteine-s
-836,carduus marianus ext.
-837,carduus marianus ext. powder
-838,carvedilol
-839,cefaclor
-840,cefadroxil
-841,cefazolin sodium
-842,cefdinir
-843,cefditoren pivoxil
-844,cefixime
-845,cefotaxime sodium
-846,cefotetan disodium
-847,cefotiam HCl
-848,cefpodoxime proxetil
-849,cefprozil
-850,cefroxadine
-851,ceftezole sodium
-852,ceftriaxone sodium
-853,cefuroxime axetil
-854,cephazedone sodium
-855,cephradine
-856,cetirizine HCl
-857,chlorhexidine gluconate
-858,chlorphenesin carbamate
-859,chlorpheniramine maleate
-860,chlorpromazine HCl
-861,chondroitin sodium sulfate
-862,cilnidipine
-863,cilostazol
-864,cimetidine
-865,cimetropium bromide
-866,ciprofloxacin HCl
-867,clarithromycin
-868,clobetasol propionate
-869,clonazepam
-870,clopidogrel
-871,clotiazepam
-872,clotrimazole
-873,codeine phosphate
-874,colchicine
-875,collinalpocereate
-876,desflurane
-877,desmopressin acetate
-878,desonide
-879,desoxymethasone
-880,dexamethasone
-881,dexamethasone sodium phosphate
-882,dexibuprofen
-883,dextrose
-884,diacerhein
-885,diazepam
-886,diclofenac sodium
-887,diclofenac-??-dimethyl-aminoethanol
-888,diflorasone diacetate
-889,diflucortolone valerate
-890,digoxin
-891,diltiazem HCl
-892,dimenhydrinate
-893,dioctahedral smectite
-894,diomagnite
-895,diosmine
-896,divalproex sodium
-897,d-mannitol
-898,domperidone
-899,domperidone maleate
-900,donepezil HCl
-901,doxazocin mesylate
-902,doxycycline
-903,doxycycline hyclate
-904,dried ivy leaf ext.(5~7.5:1)
-905,ebastine
-906,elcatonin
-907,emedastine fumarate
-908,enalapril maleate
-909,eperisone HCl
-910,ephedrine HCl
-911,epinastine HCl
-912,epinephrine HCl
-913,erdosteine
-914,erythropoietin-??
-915,etizolam
-916,etodolac
-917,famciclovir
-918,famotidine
-919,felodipine
-920,fenofibrate
-921,fenoterol Hbr
-922,fentanyl
-923,fentanyl citrate
-924,finasteride
-925,flavoxate HCl
-926,flomoxef sodium
-927,fluconazole
-928,flunarizine HCl
-929,flunitrazepam
-930,fluorometholone
-931,fluorouracil-5
-932,fluoxetine HCl
-933,flurazepam HCl
-934,flutrimazol
-935,folic acid
-936,formoterol fumarate
-937,fraction flavonoid purifiee micronise
-938,furosemide
-939,gabapentin
-940,galactosidase(??)
-941,galamine triethiodide
-942,gentamicin sulfate
-943,ginkgo biloba ext.
-944,gliclazide
-945,glimepiride
-946,glucose
-947,glycopyrrolate
-948,haloperidol
-949,hemocoagulase
-950,heparin sodium
-951,human anti-tetanus immunoglobulin
-952,human insulin
-953,hydrochlorothiazide
-954,hydrocortisone
-955,hydrocortisone sodium succinate
-956,hydroxychloroquine sulfate
-957,hydroxyzine HCl
-958,hyoscine butylbromide
-959,ibuprofen
-960,imipramine HCl
-961,indapamide
-962,inosiplex
-963,insulin lispro
-964,iobitridol
-965,iohexol
-966,iomeprol
-967,iopamidol
-968,iopromide
-969,ioversol
-970,ipratropium bromide
-971,irbesartan
-972,isosorbide dinitrate
-973,isosorbide mononitrate
-974,itopride
-975,itraconazole
-976,kallidinogenase
-977,ketoprofen
-978,ketorolac tromethamine
-979,ketotifen fumarate
-980,lacidipine
-981,lactobacillus acidophillus
-982,lactulose
-983,lamotrigin
-984,lansoprazole
-985,latanoprost
-986,lercanidipine HCl
-987,leucovorin calcium
-988,levodropropizine
-989,levofloxacin
-990,levosulpiride
-991,levothyroxine sodium
-992,lidocaine HCl
-993,limaprost
-994,lincomycin HCl
-995,lithium carbonate
-996,loperamide HCl
-997,loperamide oxide
-998,loratadine
-999,lorazepam
-1000,losartan potassium
-1001,loxoprofen sodium
-1002,magnesium hydroxide
-1003,magnesium oxide
-1004,mecobalamin
-1005,mefenamic acid
-1006,megestrol acetate
-1007,meloxicam
-1008,memantine HCl
-1009,mepivacain HCl
-1010,mequitazine
-1011,metformin HCl
-1012,methimazole
-1013,methocarbamol
-1014,methotrexate
-1015,methyl N S diacetylcysteine
-1016,methylergonovine maleate
-1017,methylol cephalexin lysinate
-1018,methylphenidate HCl
-1019,methylprednisolone
-1020,methylprednisolone aceponate
-1021,methylprednisolone sodium succinate
-1022,metoclopramide HCl
-1023,metronidazole
-1024,micro emulsion cyclosporine
-1025,micronized fenofibrate
-1026,midazolam
-1027,minocycline HCl
-1028,mirtazapine
-1029,misoprostol
-1030,morphine sulfate
-1031,mupirocin
-1032,nabumetone
-1033,nafronyl oxalate
-1034,naproxen
-1035,naproxen sodium
-1036,netilmicin sulfate
-1037,nicardifine HCl
-1038,nicergoline
-1039,nicorandile
-1040,nifedipine
-1041,nimesulide
-1042,nitroglycerin diluted(10%)
-1043,nizatidine
-1044,nortryptiline HCl
-1045,octylonium bromide
-1046,ofloxacin
-1047,olanzapine
-1048,omeprazole
-1049,orphenadrine citrate
-1050,orphenadrine HCl
-1051,ossopan substance
-1052,oxiracetam
-1053,oxytocin
-1054,pantoprazol sodium sesquihydrate
-1055,paroxetine HCl
-1056,pemirolast potassium
-1057,pentoxifylline
-1058,perindopril tetrabutylamine
-1059,perphenazine
-1060,pethidine HCl
-1061,phloroglucinol
-1062,pinaverium bromide
-1063,piprinhydrinate
-1064,pirenoxine
-1065,piroxicam
-1066,piroxicam potassium
-1067,plantago seed / plantago seed cortex
-1068,polystyrene sulfonate calcium
-1069,potassium chloride
-1070,povidone
-1071,povidone iodide
-1072,pranlukast hydrate
-1073,pranoprofen
-1074,pravastatin sodium
-1075,prednicarbate
-1076,prednisolone
-1077,prednisolone acetate
-1078,prednisolone valerate
-1079,pridinol mesylate
-1080,procaterol HCl
-1081,procyclidine HCl
-1082,propacetamol HCl
-1083,proparacaine HCl
-1084,propiverine HCl
-1085,propofol
-1086,propranolol HCl
-1087,propylthiouracil
-1088,pseudoephedrine HCl
-1089,pyridostigmine bromide
-1090,rabeprazole sodium
-1091,ramipril
-1092,ranitidine HCl
-1093,rebamipide
-1094,ribostamycin sulfate
-1095,risperidone
-1096,rocuronium bromide
-1097,ropinirole HCl
-1098,ropivacaine
-1099,roxatidine acetate HCl
-1100,roxithromycin
-1101,saccharomyces cerevisiae hansen CBS-5926
-1102,salbutamol sulfate
-1103,sarpogrelate HCl
-1104,serenoa repens lipidosterolic ext.
-1105,sertraline HCl
-1106,sevoflurane
-1107,silver sulfadiazine
-1108,simaldrate
-1109,simethicone
-1110,simvastatin
-1111,sobrerol
-1112,sodium alendronate
-1113,sodium bicarbonate
-1114,sodium carboxymethyl cellulose
-1115,sodium chloride
-1116,sodium hyaluronate
-1117,sodium tianeptine
-1118,sodium valproate
-1119,solcoseryl120 ext.
-1120,spironolactone
-1121,streptococcus faecium strain cernelle-68
-1122,sucralfate
-1123,sulglycotide
-1124,sulodexide
-1125,tacrolimus
-1126,talniflumate
-1127,tamsulosin HCl
-1128,teprenone
-1129,terazosin HCl
-1130,terbinafine
-1131,terbinafine HCl
-1132,theophylline
-1133,thiamine HCl
-1134,tibolone
-1135,tinidazole
-1136,tiropramide HCl
-1137,tizanidine HCl
-1138,tobramycin
-1139,tobramycin sulfate
-1140,tofisopam
-1141,topiramate
-1142,torasemide
-1143,tramadol HCl
-1144,tranexamic acid
-1145,trazodone HCl
-1146,triamcinolone
-1147,triamcinolone acetonide
-1148,triazolam
-1149,triflusal
-1150,trimebutine maleate
-1151,trimetazidine 2HCl
-1152,urea
-1153,ursodeoxycholic acid
-1154,vaccinium myrtillus ext.
-1155,valaciclovir
-1156,valsartan
-1157,venlafaxin HCl
-1158,vitamin-K1
-1159,vitis vinifera ext.
-1160,voglibose
-1161,warfarin sodium
-1162,water for inj.
-1163,zaltoprofen
-1164,zolpidem
-1165,zopiclone
-1166,??-lipoic acid
-1167,??-linoleic acid
-1168,caffeine anhydrous ergotamine tartrate
-1169,aescin thiocolchicoside
-1170,cetirizine HCl pseudoephedrine HCl
-1171,chlorpheniramine maleate phenylephrine
-1172,ebastine pseudoephedrin
-1173,pseudoephedrine HCl triprolidine HCl
-1174,atenolol chlorthalidone
-1175,hydrochlorothiazide losartan potassium
-1176,ambroxol HCl clenbuterol HCl
-1177,ambroxol HCl clenbuterol HCl
-1178,dextromethorphan Hbr guaifenesin pseudoephedrine HCl
-1179,ammonium chloride chlorpheniramine maleate dihydrocodeine tartrate methylephedrine HCl
-1180,caffeine anhydrous chlorpheniramine maleate dihydrocodeine tartrate methylephedrine HCl
-1181,chlorpheniramine maleate dihydrocodeine tartrate guaifenesin methylephedrine HCl
-1182,chlorpheniramine maleate dihydrocodeine tartrate guaifenesin methylephedrine HCl
-1183,ranitidine HCl sucralfate tripotassium dicitrato bismuthate
-1184,alverine citrate simethicone
-1185,clebopride malate simethicone clebopride malate simethicone
-1186,bromelain dehydrocholic acid pancreatin simethicone trimebutine maleate
-1187,betamethasone ㎗-chlorpheniramine maleate
-1188,ascorbic acid biotin calcium pantothenate cyanocobalamin folic acid nicotin amide pyridoxine HCl riboflavin thiamine nitrate
-1189,calcium carbonate cholecalciferol
-1190,calcium carbonate p.p.t. calcium gluconate calcium lactate ergocalciferol
-1191,ferrous sulfate dried serine
-1192,biphenyl dimethyl dicarboxylate garlic oil
-1193,amoxicillin sodium potassium clavulanate
-1194,amoxicillin sodium potassium clavulanate
-1195,amoxicillin sodium potassium clavulanate
-1196,amoxicillin sodium potassium clavulanate
-1197,metronidazole spiramycin
-1198,sulfamethoxazole trimethoprim sulfamethoxazole trimethoprim
-1199,codeine phosphate ibuprofen paracetamol
-1200,epinephrine lidicaine HCl
-1201,epinephrine HCl lidocaine HCl
-1202,epinephrine bitartrate lidocaine HCl
-1203,epinephrine bitartrate lidocaine HCl
-1204,cyanocobalamin dexpanthenol nicotinamide pyridoxine HCl riboflavin sodium phosphate thiamine HCl
-1205,biotin cyanocobalamin dexpanthenol nicotinamide pyridoxine HCl riboflavin sodium phosphate thiamine HCl
-1206,ascorbic acid thiamine HCl tocopherol acetate vitamin A3 biotin cyanocobalamin dexpanthenol ergocalciferol folic acid nicotinamide pyridoxine HCl riboflavin sodium phosphate
-1207,dextrose sodium chloride
-1208,dextrose potassium chloride sodium chloride
-1209,dextrose sodium chloride
-1210,dextrose sodium chloride
-1211,calcium chloride potassium chloride sodium chloride sodium lactate
-1212,calcium chloride dextrose potassium chloride sodium chloride sodium lactate
-1213,calcium chloride dextrose magnesium chloride potassium chloride sodium acetate sodium chloride
-1214,calcium chloride dextrose magnesium chloride sodium chloride sodium acetate anhydrous potassium chloride
-1215,aconitum tinc D2 hamamelis tinc-D1 hypericum tinc-D2 mercur solub hahnem-D6 millefolium tinc-D3 symphytum tinc-D2 aristolochiaclematitis tinc-D3 arnica tinc-D2 belladonna tinc-D2 bellis perennis tinc-D2 calendula tinc-D2 chamomilla tinc-D3 echinacea angustifol tinc-D2 echinacea purpurea tinc-D2
-1216,ampicillin sodium sulbactam sodium
-1217,piperacillin sodium tazobactam
-1218,dexamethasone tobramycin
-1219,dorzolamide HCl timolol maleate
-1220,fluorometholone tetrahydrozoline HCl
-1221,potassium iodide sodium iodide
-1222,dexamethasone neomycin sulfate polymixin B sulfate
-1223,fluticasone propionate salmeterol xinafoate
-1224,neomycin sulfate nystatin polymixin B sulfate
-1225,econazole nitrate triamcinolone acetonide econazole nitrate triamcinolone acetonide
-1226,betamethasone dipropionate gentamicin sulfate
-1227,diflucortolone valerate isoconazole nitrate
-1228,betamethasone dipropionate clotrimazole gentamicin sulfate betamethasone dipropionate clotrimazole gentamicin sulfate
-1229,celecoxib
-1230,fexofenadine
-1231,dextrose  sodium chloride
-1232,magnesium chloride  potassium chloride  sodium acetate  sodium chloride  sodium gluconate
-1233,calcium chloride  potassium chloride  sodium chloride  sodium lactate
-1234,calcium chloride  dextrose  potassium chloride  sodium chloride  sodium lactate
-1235,calcium chloride  magnesium chloride  potassium chloride  sodium acetate  sodium chloride
-1236,hydrochlorothiazide  valsartan
-1237,ecabet sodium
-1238,tolterodine L-tartrate
-1239,raloxifene hydrochloride
-1241,oseltamivir phosphate
-1242,oxycodone hydrochloride
-1244,mometasone furoate
-1245,esomeprazol magnesium
-1247,sodium pertechnetate(Tc-99m)
-1248,oxygen gas
-1249,montelukast sodium
-1250,quetiapine fumarate
-1251,telmisartan
-1252,hydrochlorothiazide  losartan potassium
-1253,amoxicillin  pivoxil sulbactam
-1254,moxifloxacin hydrochloride
-1255,hydrochlorothiazide  irbesartan
-1256,olopatadine hydrochloride
-1257,dextrose  potassium chloride  sodium chloride
-1258,pramipexole dihydrochloride
-1259,위령선  괄루근  하고초 ethanol ext.
-1260,mosapride citrate
-1261,candesartan cilexetil  hydrochlorothiazide
-1262,neltenexine monohydrate
-1263,adenine hydrochloride  antitoxic liver ext.  biphenyl dimethyl dicarboxylate  carnitine orotate  cyanocobalamin  pyridoxine hydrochloride  riboflavin
-1264,levocloperastine fendizoate
-1265,artemisiae argyi folium ethanol ext.(20→1)
-1266,pioglitazone hydrochloride
-1267,streptokinase·streptodornase
-1268,doxofylline
-1269,insulin aspart
-1270,risedronate sodium
-1271,hydrochlorothiazide  valsartan
-1272,hydrochlorothiazide  telmisartan
-1273,hydrochlorothiazide  telmisartan
-1275,articaine hydrochloride  epinephrine bitartrate
-1277,bromelain
-1278,aripiprazole
-1279,rifaximin
-1280,tulobuterol
-1281,bepotastine besilate
-1282,rosuvastatin calcium
-1283,darbepoetin α
-1285,remifentanil hydrochloride
-1286,acitazanolast hydrate
-1287,morniflumate
-1288,dutasteride
-1289,amlodipine maleate
-1290,amlodipine camsylate
-1291,lactobacillus casei var. rhamnosus
-1293,insulin glargine
-1294,amoxicillin  clavulanate potassium
-1295,calcium citrate
-1296,levocetirizine dihydrochloride
-1297,amlodipine adipate
-1298,olmesartan medoxomil
-1299,pitavastatin calcium
-1300,ezetimibe  simvastatin
-1301,ezetimibe  simvastatin
-1302,amlodipine besylate
-1303,bacillus subtilis·streptococcus faecium
-1304,calcium carbonate
-1305,glimepiride  metformin hydrochloride
-1306,cefcapene pivoxil hydrochloride hydrate
-1307,escitalopram oxalate
-1308,amlodipine orotate
-1309,omega-3-acid ethyl esters90
-1310,calcium chloride  dextrose anhydrous  glacial acetic acid  magnesium chloride  potassium chloride  sodium chloride
-1311,calcium carbonate
-1312,ibandronate sodium monohydrate
-1313,Pregabalin
-1314,acetaminophen  tramadol hydrochloride
-1315,S-amlodipine besylate
-1316,S-amlodipine nicotinate
-1317,hydrochlorothiazide  losartan potassium
-1318,petasites hybridus CO2 extracts
-1319,entecavir
-1320,levetiracetam
-1321,lafutidine
-1322,nebivolol hydrochloride
-1323,palonosetron hydrochloride
-1324,pelargonium sidoides ethanol ext.(1→8~10)
-1325,drospirenone  estrodiol hemihydrate
-1326,clopidogrel resinate
-1327,amlodipine besylate
-1328,amlodipine besylate
-1330,pelubiprofen
-1331,solifenacin succinate
-1332,tenofovir disoproxil fumarate
-1333,irsogladine maleate
-1334,duloxetine hydrochloride
-1335,amlodipine besylate
-1336,esomeprazol strontium tetrahydrate
-1337,calcium carbonate
-1338,cholecalciferol concentrated powder
-1339,erythropoietin
-1340,fluticasone furoate(micronized)
-1341,amlodipine besylate
-1342,vildagliptin
-1344,sitagliptin phosphate hydrate
-1345,metformin hydrochloride  sitagliptin phosphate hydrate
-1346,amlodipine camsylate
-1347,metformin hydrochloride  sitagliptin phosphate hydrate
-1348,amlodipine camsylate
-1349,theobromine
-1350,silodosin
-1351,ilaprazole
-1352,polaprezinc
-1353,cilostazol  ginkgo biloba leaf ext.
-1354,metformin hydrochloride  vildagliptin
-1355,metformin hydrochloride  vildagliptin
-1356,estriol  lactobacillus acidophilus(lyophilized)
-1357,bepotastine calcium dihydrate
-1358,esomeprazole
-1359,ciclesonide(micronized)
-1360,cholecalciferol concentrated powder
-1361,amlodipine besylate
-1362,amlodipine besylate
-1363,acetaminophen  tramadol hydrochloride
-1364,hydrochlorothiazide  olmesartan medoxomil
-1365,metformin hydrochloride  sitagliptin phosphate hydrate
-1366,acetaminophen  tramadol hydrochloride
-1367,fimasartan potassium trihydrate
-1368,phenylephrine hydrochloride  tropicamide
-1370,aspirin  clopidogrel bisulfate
-1372,S-pantoprazol sodium trihydrate
-1373,metformin hydrochloride  vildagliptin
-1374,fenofibric acid
-1375,linagliptin  metformin hydrochloride
-1376,linagliptin  metformin hydrochloride
-1377,linagliptin  metformin hydrochloride
-1378,S-amlodipine besylate
-1379,bepotastine salicylate
-1381,esomeprazol strontium tetrahydrate
-1382,metformin hydrochloride  sitagliptin phosphate hydrate
-1383,levocetirizine dihydrochloride  pseudoephedrine hydrochloride
-1384,lobeglitazone sulfate
-1385,desloratadine
-1386,febuxostat
-1387,Nitrous oxide
-1389,naftopidil
-1390,corydalis tuber·pharbitis seed(5:1) ethanol ext.(9.5~11.5→1)
-1391,polyethylene glycol  sodium sulfate anhydrous  sodium chloride  potassium chloride  ascorbic acid  sodium ascorbate
-1392,linagliptin
-1393,diquafosol sodium
-1394,당귀·목과·방풍·속단·오가피·우슬·위령선·육계·진교·천궁·천마·홍화 ethanol soft ext.(3.5→1)
-1395,gemigliptin tartrate sesquihydrate
-1396,artemisiae argyi folium isopropanol soft ext.(20→1)
-1397,dexlansoprazole
-1398,alogliptin benzoate
-1399,dried coptidis rhizoma ext.
+0,Unknown,Unknown
+1,AA254,"재진진찰료-의원,보건의료원 내 의과"
+2,AA154,"초진진찰료-의원,보건의료원 내 의과"
+3,AL801,"외래환자 의약품관리료-1일분(의원,치과의원,보건의료원 의·치과)"
+4,KK010,피하또는근육내주사
+5,10200,"재진진찰료-한의원,보건의료원 내 한의과"
+6,40012,경혈침술(2부위이상)
+7,MM020,심층열치료[1일당]
+8,MM015,표층열치료(심층열동시)
+9,40080,투자법 침술
+10,AH200,만성질환관리료
+11,MM070,경피적전기신경자극치료[TENS]
+12,AA255,"재진진찰료-병원, 요양병원·한방병원·치과병원 내 의과"
+13,AA256,재진진찰료-종합병원
+14,40701,온냉경락요법-경피적외선조사요법
+15,C3710,당검사(반정량)
+16,AA200,"재진진찰료-치과의원, 보건의료원 내 치과"
+17,40060,관절내 침술
+18,MM080,간섭파전류치료[ICT]
+19,E6810,세극등현미경검사
+20,AA100,"초진진찰료-치과의원, 보건의료원 내 치과"
+21,B1050,백혈구수
+22,B1020,헤마토크리트
+23,B1010,혈색소[광전비색법]
+24,B1060,혈소판수
+25,B1040,적혈구수
+26,B2580,ALT[SGPT]
+27,B2570,AST[SGOT]
+28,C3750,크레아티닌
+29,40011,경혈침술(1부위)
+30,C3730,요소질소[NPN포함]
+31,AA257,재진진찰료-상급종합병원
+32,C3711,당검사(정량)
+33,40321,부항술(건식부항)-유관법
+34,40091,침전기자극술
+35,C2210,알부민
+36,B1091,백혈구백분율(혈액)
+37,C2200,총단백정량
+38,C3720,총빌리루빈정량
+39,AL300,"외래환자 의약품관리료[방문당]-병원, 치과병원, 요양병원·한방병원 내 의·치과"
+40,KK052,정맥내점적주사-100ml∼500ml[1병또는포장단위당]
+41,B2602,알칼리포스파타제
+42,C2411,총콜레스테롤정량
+43,MM300,적외선치료[1일당]
+44,M0111,단순처치[1일당]
+45,KK059,정맥내유치침
+46,AA155,"초진진찰료-병원, 요양병원·한방병원·치과병원 내 의과"
+47,10100,포스트(기성품)
+48,AL200,외래환자 의약품관리료[방문당]-종합병원
+49,C3792,전해질(포타슘)
+50,C3791,전해질(소디움)
+51,AA156,초진진찰료-종합병원
+52,MM010,표층열치료
+53,C3793,전해질(염소)
+54,40312,부항술(자락관법)
+55,MM303,상기도증기흡입치료
+56,40306,구술(간접구)-간접애주구
+57,KK054,수액제주입로를통한주사
+58,AA222,"재진-물리치료,주사등을 시술받은 경우"
+59,G9101,치근단1매
+60,G2101,흉부[직접]1매
+61,40400,변증기술료
+62,Y0000,일반식(1식당)
+63,B0030,요일반검사10종까지
+64,30010,한방외래·퇴원환자조제료(1일분/1회당)
+65,C2443,지질(트리글리세라이드)
+66,C3795,전해질(총칼슘)
+67,C3780,요산
+68,E6752,안압측정-기타
+69,E6541,심전도검사-심전도기록및판독[표준12유도]
+70,C2243,C-반응성단백(정량)
+71,B0041,요침사현미경검사
+72,B2710,γ-GTP
+73,C3794,전해질(인)
+74,AA250,재진진찰료-의원-만성질환관리제
+75,KK053,정맥내점적주사-501ml∼1000ml[1병또는포장단위당]
+76,C2420,HDL콜레스테롤
+77,NN011,개인정신치료(지지요법)
+78,40070,척추간 침술
+79,J2000,입원환자 조제·복약지도료(1일당)
+80,AL100,외래환자 의약품관리료[방문당]-상급종합병원
+81,P0001,Unknown
+82,G9701,파노라마 일반
+83,MM085,재활저출력레이저치료[1일당]
+84,B1540,프로트롬빈시간
+85,E6710,굴절및조절검사[안경처방전교부포함]
+86,C3825,헤모글로빈A1C
+87,KK020,정맥내일시주사[1일당]
+88,B1530,활성화부분트롬보플라스틴시간
+89,B2590,LDH
+90,U0111,근관세척[1근관1회당]
+91,40700,온냉경락요법-경피경근온열요법
+92,AU311,의료질평가지원금-교육수련분야 1등급(외래)
+93,AA157,초진진찰료-상급종합병원
+94,GB021,영상저장및전송시스템(FULL PACS)이용 1매(단순영상)-종합병원
+95,M0045,하기도증기흡입치료[1일당]
+96,U2233,치석제거[전악]
+97,E6660,정밀안저검사[편측]
+98,O7021,혈액투석시 사용된 재료대와 약제(투석액 제외)[1회당]
+99,O7020,혈액투석[1회당]
+100,C3812,혈액총이산화탄소함량
+101,U0116,근관확대[1근관1회당]
+102,L0800,치과침윤마취(1/3악당)
+103,MM052,간헐적견인치료-골반견인
+104,C2430,LDL콜레스테롤
+105,KK090,관절강내주사
+106,B1034,"적혈구침강속도-Infrared Ray법, Spin법 등을 이용한 신속검사법"
+107,L0905,치과전달마취(하치조신경블록)
+108,U0060,즉일충전처치[1치당]
+109,L0903,치과전달마취(후상치조신경블록)
+110,GB022,영상저장및전송시스템(FULL PACS)이용 2매(단순영상)-종합병원
+111,C3360,갑상선자극호르몬
+112,GB011,영상저장및전송시스템(FULL PACS)이용 1매(단순영상)-상급종합병원
+113,B0043,요침사검사[유세포분석법]
+114,U2232,치석제거[1/3악당]
+115,MM101,단순운동치료[1일당]
+116,C4802,B형간염표면항원정성검사(정밀)
+117,C3340,유리싸이록신
+118,R4106,질강처치
+119,L7250,기관내삽관에의한폐쇄순환식전신마취(06:01-06:15)
+120,C4812,B형간염표면항체(정밀)
+121,B4101,미생물현미경검사[일반염색]-그람염색
+122,AU211,"의료질평가지원금-의료 질 및 환자안전,공공성,의료전달체계분야-상급종합병원,종합병원(전문병원 제외)-1-나등급-상급종합병원(외래)"
+123,G2102,흉부[직접]2매
+124,B2611,총아밀라아제
+125,AU412,의료질평가지원금-연구개발분야 2등급(외래)
+126,Y1111,"일반식 영양사, 조리사, 선택식단, 직영 가산(1식당)"
+127,B2630,CPK
+128,U2211,수술후처치[1일당]-단순처치
+129,K7202,Unknown
+130,B2021,Rho(D)혈액형검사-수기법
+131,B0020,요일반검사7종까지
+132,AU411,의료질평가지원금-연구개발분야 1등급(외래)
+133,U4413,발치술[1치당]-구치
+134,C3721,직접빌리루빈정량
+135,E7611,상부소화관내시경검사
+136,U0135,복합레진충전(글래스아이노머시멘트(II)충전포함)-1면
+137,HB021,영상저장및전송시스템(FULL PACS)이용(특수영상)-종합병원
+138,LA247,척수신경말초지차단술-견갑신경
+139,40307,구술(간접구)-기기구술
+140,U0101,발수[1근관당]
+141,U0050,근관와동형성[1근관당]
+142,GB032,영상저장및전송시스템(FULL PACS)이용 2매(단순영상)-병원급 의·치과
+143,GB031,영상저장및전송시스템(FULL PACS)이용 1매(단순영상)-병원급 의·치과
+144,40050,복강내 침술
+145,GB012,영상저장및전송시스템(FULL PACS)이용 2매(단순영상)-상급종합병원
+146,K2062,Unknown
+147,40313,부항술(자락관법)(2부위이상)
+148,HB011,영상저장및전송시스템(FULL PACS)이용(특수영상)-상급종합병원
+149,G2402,복부2매
+150,MM051,간헐적견인치료-경추견인
+151,Y1101,"일반식 영양사, 조리사, 직영 가산(1식당)"
+152,B4051,미생물배양및동정검사
+153,E6670,기본 안저촬영[편측]
+154,C3290,트리요도타이로닌
+155,G4502,요추2매
+156,C4801,B형간염표면항원정성검사(일반)
+157,AU313,의료질평가지원금-교육수련분야 3등급(외래)
+158,U2240,치근활택술[1/3악당]
+159,U0126,가압근관충전[1근관당]
+160,E9010,근관장측정검사[1근관당]
+161,B2000,"A,B,O혈구혈액형검사"
+162,AC103,"응급의료관리료-분야별전문응급의료센터,지역응급의료센터"
+163,N0061,피부과처치(대상포진)-9%이하범위[1일당]
+164,Y1110,"일반식 영양사, 조리사, 선택식단 가산(1식당)"
+165,J5126,외래환자 조제·복약지도료-내복약(26일분 이상 30일분/1회당)
+166,LA322,경막외신경차단술-일회성차단(요추및천추)
+167,AL836,"외래환자 의약품관리료-16~30일분(의원,치과의원,보건의료원 의·치과)"
+168,40304,구술(직접구)-직접애주구
+169,E6870,각막곡율측정
+170,NN013,개인정신치료(집중요법)
+171,U1010,치주소파술[1/3악당]
+172,Z0000,치료식(1식당)
+173,KK051,정맥내점적주사-100ml미만[1병또는포장단위당]
+174,U0200,충전물연마[1치당]
+175,G7202,슬관절2매
+176,MM042,파라핀욕[1일당]
+177,U0119,근관성형[1근관1회당]
+178,AU212,"의료질평가지원금-의료 질 및 환자안전,공공성,의료전달체계분야-상급종합병원,종합병원(전문병원 제외)-2등급-상급종합병원(외래)"
+179,K7201,Unknown
+180,C4811,B형간염표면항체(일반)
+181,U4411,발치술[1치당]-유치
+182,E6831,눈물분비기능검사
+183,U0140,러버댐장착[1악당]
+184,M0040,산소흡입[1일당]
+185,B1033,"적혈구침강속도-Westergren, Wintrobe Tube 등을 이용한 육안검사법"
+186,AL824,"외래환자 의약품관리료-14일분(의원,치과의원,보건의료원 의·치과)"
+187,K2056,Unknown
+188,GB034,영상저장및전송시스템(FULL PACS)이용 4매(단순영상)-병원급 의·치과
+189,E7230,경피적혈액산소포화도측정[1일당]
+190,U0136,복합레진충전(글래스아이노머시멘트(II)충전포함)-2면
+191,E6751,안압측정-정밀측정
+192,AU413,의료질평가지원금-연구개발분야 3등급(외래)
+193,AS101,일반식 본인일부부담 급식비(1식당)
+194,K2058,Unknown
+195,AU214,"의료질평가지원금-의료 질 및 환자안전,공공성,의료전달체계분야-상급종합병원,종합병원(전문병원 제외)-4등급(외래)"
+196,B2621,리파아제
+197,U2221,"치주치료후처치[1구강1회당]-치석제거,치근활택술,치주소파술 후"
+198,C3815,혈액가스분석[1회당]
+199,U0001,Barbed-Broach
+200,LA272,척수신경말초지차단술-좌골신경
+201,C4602,매독반응검사(정밀)
+202,C4600,"매독반응검사(VDRL,RPR,ART)"
+203,B2010,"A,B,O혈청혈액형검사"
+204,AU215,"의료질평가지원금-의료 질 및 환자안전,공공성,의료전달체계분야-상급종합병원,종합병원(전문병원 제외)-5등급(외래)"
+205,B2640,CK-MB
+206,MM105,중추신경계발달재활치료
+207,AU312,의료질평가지원금-교육수련분야 2등급(외래)
+208,40322,부항술(건식부항)-섬관법
+209,AB002,필요인력확보(일당)
+210,AU213,"의료질평가지원금-의료 질 및 환자안전,공공성,의료전달체계분야-상급종합병원,종합병원(전문병원 제외)-3등급-상급종합병원(외래)"
+211,G5101,골반1매
+212,J1070,퇴원환자조제료-내복약(7일분/1회당)
+213,E9020,치주낭측정검사[1/3악당]
+214,C3797,전해질(마그네슘)
+215,B0010,요일반검사4종까지
+216,K0001,Unknown
+217,AR500,의료급여-정신건강의학과 투약료(1일당)
+218,AR100,의료급여-정신건강의학과 외래(1일당)
+219,G4504,요추4매
+220,E7660,결장경검사
+221,GB033,영상저장및전송시스템(FULL PACS)이용 3매(단순영상)-병원급 의·치과
+222,G4102,경추2매
+223,Z0011,일반식가산-조리사(1식당)
+224,MM102,운동치료-복합운동치료[1일당]
+225,Z0010,일반식가산-영양사(1식당)
+226,E7581,후두경검사
+227,E7540,비인강경검사
+228,30020,한방외래·퇴원환자조제료(2일분/1회당)
+229,GB024,영상저장및전송시스템(FULL PACS)이용 4매(단순영상)-종합병원
+230,J5030,외래환자 조제·복약지도료-내복약(3일분/1회)
+231,G3302,견관절2매
+232,C3942,트로포닌I
+233,AC105,응급의료관리료-지역응급의료기관
+234,AL807,"외래환자 의약품관리료-7일분(의원,치과의원,보건의료원 의·치과)"
+235,L1310,마취중말초산소포화도감시
+236,O9991,의료급여-혈액투석 정액수가(1회당)
+237,C4712,HIV항체검사(정밀)
+238,GB023,영상저장및전송시스템(FULL PACS)이용 3매(단순영상)-종합병원
+239,B2061,불규칙항체검사(선별)
+240,C5911,병리조직검사[1장기당]-생검(1-3개)
+241,U2241,치관수복물또는보철물의제거[1치당]-간단한것
+242,J5010,외래환자 조제·복약지도료-내복약(1일분/1회)
+243,K2054,Unknown
+244,B0042,요침사현미경검사[Wet Smear(Direct Smear)]
+245,HA465,일반전산화단층영상진단-복부[골반포함]-조영제를사용하는경우
+246,AB317,"병원, 치과병원, 한방병원 내 의·치과 7등급간호관리료기본입원료-의료취약지역,서울특별시및광역시구지역소재요양기관이아닌경우"
+247,Q2260,"인, 후두소작술"
+248,K7203,Unknown
+249,C4713,HIV항체검사(HIV 항원/항체 동시 선별검사)
+250,L7251,Unknown
+251,K2053,Unknown
+252,F6341,순음청력계기에의한검사-표준순음청력검사
+253,E6544,심전도침상감시[1일당]
+254,U2242,치관수복물또는보철물의제거[1치당]-복잡한것
+255,AA209,"재진진찰료-치과병원, 병원·요양병원·한방병원 내 치과"
+256,U0152,와동형성[1치당]-2면
+257,KK062,건초내주사
+258,KK058,정밀지속적점적주입위한InfusionPump사용료[기기당1일1회]
+259,G7502,족골2매
+260,M0060,유치 카테터 설치
+261,HC342,골밀도검사[재료대포함]-양방사선(광자) 골밀도검사(2부위이상)
+262,M1002,Unknown
+263,C3796,전해질(이온화칼슘)
+264,U0132,아말감충전[1치당]-2면
+265,T6154,부목-단하지[하퇴로부터 족부까지]
+266,C5916,병리조직검사[1장기당]-절편이필요한경우(파라핀블록:6개이하)
+267,G6502,수골2매
+268,AH600,"협의진찰료-종합병원,상급종합병원에 설치된 경우를 제외한 치과대학부속치과병원 내 의·치과"
+269,G7204,슬관절4매
+270,N0091,병변내주입요법-25㎠미만
+271,C2520,훼리틴
+272,G7203,슬관절3매
+273,C4212,알파피토프로테인(정밀)
+274,G7402,족관절2매
+275,KK061,신경간내주사
+276,N0051,"화상처치-열탕,화염,동상,화학화상등의경우(9%이하의범위)수.족,지에 준하는범위"
+277,S5571,외이도이물또는이구전색제거[간단한것은 기본진료료에 포함]-복잡한것
+278,LA274,척수신경말초지차단술-대퇴신경
+279,C2490,철
+280,C2302,미량알부민검사(정량)
+281,F6361,청력검사[임피단스오디오메트리에의한검사]-고막운동성계측
+282,AA109,"초진진찰료-치과병원, 병원·요양병원·한방병원 내 치과"
+283,B1220,적혈구분포계수
+284,LA357,"척수신경총,신경근및신경절차단술-척수신경후지"
+285,G2401,복부1매
+286,NN031,가족치료(개인치료)
+287,C3800,삼투압농도
+288,40323,부항술(건식부항)-주관법
+289,C4280,전립선특이항원PSA
+290,40120,"분구침술(이침,두침,족침,수침,수지침,면침,비침,완과침,피내침,피부침,자석침)"
+291,N0012,"화상처치-9%이하의범위[수족지,안면,경부,성기를 포함하지 아니한 경우]"
+292,MM011,한냉치료(콜드팩)
+293,G6402,수관절2매
+294,MM132,근막동통유발점주사자극치료[1일당]-2부위이상각각실시
+295,HA451,일반전산화단층영상진단-두부-조영제를사용하지않는경우
+296,NN040,"작업및오락요법[음악,서화,조각,운동,작업등]"
+297,C2500,철결합능
+298,C4903,RA factor(정량)
+299,K5001,Unknown
+300,MM112,작업치료-복합작업치료
+301,B0001,임상병리검사종합검증료
+302,AB202,종합병원2등급간호관리료적용기본입원료
+303,G7403,족관절3매
+304,U2390,치면열구전색술[1치당]
+305,C7336,갑상선자극호르몬TSH-핵의학적방법
+306,B1230,혈소판분포계수
+307,AB307,"병원, 치과병원, 한방병원 내 의·치과 7등급간호관리료적용기본입원료-서울특별시및광역시구지역소재요양기관"
+308,GB035,영상저장및전송시스템(FULL PACS)이용 5매(단순영상)-병원급 의·치과
+309,L9021,Unknown
+310,N0143,"티눈제거술(전기소작,냉동응고술 또는 약물밀봉대)"
+311,MM131,근막동통유발점주사자극치료[1일당]
+312,MM113,작업치료-특수작업치료
+313,U0010,보통처치[1치1회당]
+314,HB031,영상저장및전송시스템(FULL PACS)이용(특수영상)-병원급 의·치과
+315,U0002,Reamer 또는 File
+316,F6002,호흡기능검사-기류용적폐곡선[기본폐기능검사포함]
+317,J1030,퇴원환자조제료-내복약(3일분/1회당)
+318,LA358,"척수신경총,신경근및신경절차단술-후지내측지"
+319,U4454,"구강내소염수술(치은농양,치관주위농양절개등)"
+320,EY792,각막생체염색하 세극등현미경검사[훌루오레신]
+321,MM302,재활기능치료-보행치료
+322,G2501,신장요관방광단순촬영 1매
+323,J5140,외래환자 조제·복약지도료-내복약(14일분/1회)
+324,T0000,산모식(1식당)
+325,AH100,"협의진찰료-의과,치과"
+326,G3503,늑골3매
+327,L1211,기관내삽관에의한폐쇄순환식전신마취관리기본[1시간기준]
+328,G1201,부비동1매
+329,N0041,"화상의가피절제술-9%이하의범위[수.족,지에준하는범위]"
+330,G4104,경추4매
+331,K8403,Unknown
+332,C7334,유리싸이록신-핵의학적방법
+333,AH500,"협의진찰료-상급종합병원,상급종합병원에 설치된 치과대학부속치과병원 내 의·치과"
+334,T6152,부목-단상지[전완으로부터 수부까지]
+335,C4872,C형간염항체(정밀)
+336,G8102,수지골2매
+337,G7503,족골3매
+338,K2059,Unknown
+339,30030,한방외래·퇴원환자조제료(3일분/1회당)
+340,AB400,"의원,치과의원,보건의료원 의·치과 입원료"
+341,M1004,Unknown
+342,Y2300,"기본식사-일반식(1식당)-병원,요양병원,치과병원,한방병원"
+343,M0077,"기타관장(글리세린관장,생리식염수관장,에스에스관장등)[관장제포함]"
+344,LA347,척수신경말초지차단술-액와하부신경
+345,G6202,주관절2매
+346,L7232,Unknown
+347,N0011,"화상처치-9%이하의범위[수족지,안면,경부,성기를 포함하는경우]"
+348,E7550,부비강입구부경검사
+349,B2050,교차시험[단위당산정]
+350,MM301,재활기능치료-매트및이동치료
+351,U0151,와동형성[1치당]-1면
+352,U4412,발치술[1치당]-전치
+353,J5070,외래환자 조제·복약지도료-내복약(7일분/1회)
+354,U0220,보철물재부착[1치당]
+355,C4220,태아성암항원CEA
+356,G4505,요추5매 또는 그 이상
+357,M0121,염증성처치[1일당]
+358,HA464,일반전산화단층영상진단-흉부-조영제를사용하는경우
+359,AB203,종합병원3등급간호관리료적용기본입원료
+360,K7204,Unknown
+361,J0041,주사제 무균조제료(1건당)-주사용 항암제
+362,MM151,기능적전기자극치료
+363,U2290,교합조정술[1치당]
+364,MM114,일상생활동작훈련치료[1일당]
+365,B1100,혈구형태[말초혈액도말]
+366,AL803,"외래환자 의약품관리료-3일분(의원,치과의원,보건의료원 의·치과)"
+367,HA475,"일반전산화단층영상진단-복부-이중,삼중,삼차원CT,CT혈관조영,Cine CT"
+368,L1221,기관내삽관에의한폐쇄순환식전신마취유지[1시간초과15분당]
+369,M0134,수술후 튜브삽입에 의한 자연 배액감시 및 처치[1일당]
+370,G6404,수관절4매
+371,Y0101,"일반식 조리사, 직영 가산(1식당)"
+372,AC101,"응급의료관리료-중앙응급의료센터,권역응급의료센터"
+373,J5151,외래환자 조제·복약지도료-내복약(51일분 이상 60일분/1회당)
+374,G6503,수골3매
+375,AB102,상급종합병원2등급간호관리료적용기본입원료
+376,U0131,아말감충전[1치당]-1면
+377,C4711,HIV항체검사(일반)
+378,J5600,외래환자 조제·복약지도료-외용약(내복약과 동시)(1회당)
+379,KK153,항암제주입-정맥내점적주사-100ml∼500ml[1병또는포장단위당]
+380,K3100,Unknown
+381,C8020,관절천자[간단한검사또는관절액이동술포함][편측]
+382,B1510,출혈시간
+383,E7050,직장수지검사
+384,LA346,척수신경말초지차단술-액와신경
+385,Y2200,기본식사-일반식(1식당)-종합병원
+386,B1081,망상적혈구수[유세포분석법]
+387,E6691,자동시야검사[편측]
+388,J5020,외래환자 조제·복약지도료-내복약(2일분/1회)
+389,AH700,"협의진찰료-병원, 한방병원, 치과병원 내 의·치과"
+390,B4149,"미생물배양,동정및항균제최소억제농도검사(혈액,체액의혐기성배양)"
+391,11800,"협의진찰료-요양병원,보건의료원 내 한의과"
+392,B1723,D-dimer검사(정량)
+393,B4143,"미생물배양,동정및항균제최소억제농도검사(비뇨,생식기검체)"
+394,B1601,섬유소원검사(기능적)
+395,F6101,신경학적검사-일반검사
+396,GB013,영상저장및전송시스템(FULL PACS)이용 3매(단순영상)-상급종합병원
+397,J1050,퇴원환자조제료-내복약(5일분/1회당)
+398,EZ796,안구광학단층촬영[편측]
+399,C3850,유산
+400,C7329,트리요도타이로닌-핵의학적방법
+401,G4602,요천추2매
+402,GB014,영상저장및전송시스템(FULL PACS)이용 4매(단순영상)-상급종합병원
+403,G7404,족관절4매
+404,C3430,C-peptide
+405,C2241,C-반응성단백(정성)
+406,B0003,Unknown
+407,J5500,외래환자 조제·복약지도료-외용약(단독투약)(1회당)
+408,G3303,견관절3매
+409,AB103,상급종합병원3등급간호관리료적용기본입원료
+410,L7230,기관내삽관에의한폐쇄순환식전신마취(05:31-05:45)
+411,C5575,면역조직(세포)화학검사[종목당]
+412,B4062,미생물약제감수성검사(항균제최소억제농도검사)
+413,K4021,Unknown
+414,K4200,Unknown
+415,LA275,척수신경말초지차단술-외측대퇴피신경
+416,F6216,인성검사-간이정신진단검사
+417,M0050,도뇨[1회당]
+418,J1140,퇴원환자조제료-내복약(14일분/1회당)
+419,GB025,영상저장및전송시스템(FULL PACS)이용 5매(단순영상)-종합병원
+420,K6100,Unknown
+421,C4854,B형간염DNA정량검사(실시간중합효소연쇄반응법)
+422,LA354,"척수신경총,신경근및신경절차단술-선택적신경근"
+423,K2121,Unknown
+424,AL900,혈액관리료[Unit당]
+425,E7670,직장경검사
+426,U4414,발치술[1치당]-난발치
+427,C4230,CA-19-9
+428,S5430,첩모발거술[다수]
+429,G3304,견관절4매
+430,HA456,일반전산화단층영상진단-척추-조영제를사용하지않는경우
+431,C3870,암모니아
+432,E6832,눈물배출기능검사
+433,E6673,시신경섬유층사진[편측]
+434,C4683,바이러스항체[바이러스별각각산정](정밀)-IgM
+435,JJJJJ,Unknown
+436,AB300,"병원, 치과병원, 한방병원 내 의·치과 기본입원료"
+437,T6155,부목-수지부
+438,Q7701,결장경하 종양 수술-폴립 절제술
+439,B0004,Unknown
+440,B4054,미생물배양및동정검사(항산균배양및동정검사)-고체배지 이용
+441,O1026,"갑개소작술, 비인강소작술"
+442,F6300,언어청각검사
+443,R3980,전립선맛사지
+444,E6672,전안부촬영[편측]
+445,G7201,슬관절1매
+446,HD061,입체조형치료[1회당]
+447,G5202,고관절2매
+448,J1600,퇴원환자조제료(내복약과동시투약)(1회당)
+449,K8404,Unknown
+450,A5191,"인지장애군 ADL 4-20, 의사1(전문의수50%이상)·간호1등급"
+451,B2001,"A,B,O 혈액형검사-수기법"
+452,S4930,결막이물제거술
+453,G6204,주관절4매
+454,C4901,RA factor(정성)
+455,F6321,평형기능검사[Frenzel안경안진검사]-자발및주시안진검사
+456,U0137,복합레진충전(글래스아이노머시멘트(II)충전포함)-3면
+457,NN021,일반집단정신치료
+458,B0542,Unknown
+459,K3101,Unknown
+460,AS701,치료식 본인일부부담 급식비(1식당)
+461,B4151,Helicobacter Pylori검사(내시경하)-CLO Test[UreaseTest]
+462,G7504,족골4매
+463,C4822,B형간염e항원(정밀)
+464,BX304,항산성형광염색 집균도말검사
+465,G7701,슬개골1매
+466,AB001,요양병원간호사2/3이상 확보(1일당)
+467,G2103,흉부[직접]3매
+468,CY155,기타 비타민[D3]
+469,K2126,Unknown
+470,C3400,부갑상선호르몬
+471,C4682,바이러스항체[바이러스별각각산정](정밀)-IgG
+472,Y0001,일반식 직영 가산(1식당)
+473,G4402,흉요추2매
+474,F6322,평형기능검사[Frenzel안경안진검사]-두위및두위변환안진검사
+475,AU301,의료질평가지원금-교육수련분야 1등급(입원)
+476,40040,비강내 침술
+477,20032,짧은 위팔 의지-기능형
+478,E6899,각막내피세포검사
+479,G4302,흉추2매
+480,HA434,일반전산화단층영상진단-흉부-조영제를사용하지않는경우-기타의경우
+481,Y1010,"일반식 영양사, 선택식단 가산(1식당)"
+482,S5117,인공수정체삽입술-일차[백내장수술과동시실시시]
+483,K8402,Unknown
+484,Y0100,일반식 조리사 가산(1식당)
+485,G2702,유방-유방촬영2매
+486,C4832,B형간염e항체(정밀)
+487,AL810,"외래환자 의약품관리료-10일분(의원,치과의원,보건의료원 의·치과)"
+488,B0011,Unknown
+489,B0044,요침사검사[이미지분석법]
+490,E6548,24시간혈압측정검사[1일당]-24시간 지속적 침상감시
+491,C3941,트로포닌T
+492,C2320,MAST법에의한면역글로불린E
+493,M0141,좌욕[1일당]
+494,M0137,흡입배농 및 배액처치[1일당]
+495,S5119,백내장및수정체수술-수정체유화술
+496,J5050,외래환자 조제·복약지도료-내복약(5일분/1회)
+497,U0041,"지각과민처치[1치당]-약물도포,이온도입법의경우"
+498,G6504,수골4매
+499,B4055,미생물배양및동정검사(항산균배양및동정검사)-액체배지 이용
+500,Unknown,Unknown
+501,A00-A09,장 감염 질환
+502,A15-A19,결핵
+503,A20-A28,특정 동물매개의 세균성 질환
+504,A30-A49,기타 세균성 질환
+505,A50-A64,주로 성행위로 전파되는 감염
+506,A65-A69,기타 스피로헤타질환
+507,A70-A74,클라미디아에 의한 기타 질환
+508,A75-A79,리케차병
+509,A80-A89,중추신경계통의 바이러스감염
+510,A90-A99,절지동물매개의 바이러스열 및 바이러스출혈열
+511,B00-B09,피부 및 점막병변이 특징인 바이러스감염
+512,B15-B19,바이러스간염
+513,B20-B24,인체면역결핍바이러스병
+514,B25-B34,기타 바이러스 질환
+515,B35-B49,진균증
+516,B50-B64,원충질환
+517,B65-B83,연충병
+518,B85-B89,이감염증
+519,B90-B94,감염성 및 기생충 질환의 후유증
+520,B95-B98,세균
+521,B99,기타 감염성 질환
+522,C00-C14,입술
+523,C15-C26,소화기관의 악성 신생물
+524,C30-C39,호흡기 및 흉곽내 기관의 악성 신생물
+525,C40-C41,뼈 및 관절연골의 악성 신생물
+526,C43-C44,흑색종 및 기타 피부의 악성 신생물
+527,C45-C49,중피성 및 연조직의 악성 신생물
+528,C50,유방의 악성 신생물
+529,C51-C58,여성 생식기관의 악성 신생물
+530,C60-C63,남성 생식기관의 악성 신생물
+531,C64-C68,요로의 악성 신생물
+532,C69-C72,눈
+533,C73-C75,갑상선 및 기타 내분비선의 악성 신생물
+534,C76-C80,불명확한
+535,C81-C96,림프
+536,C97,독립된(일차성) 여러 부위의 악성 신생물
+537,D00-D09,제자리신생물
+538,D10-D36,양성 신생물
+539,D37-D48,행동양식 불명 또는 미상의 신생물
+540,D50-D53,영양성 빈혈
+541,D55-D59,용혈성 빈혈
+542,D60-D64,무형성 및 기타 빈혈
+543,D65-D69,응고결함
+544,D70-D77,혈액 및 조혈기관의 기타 질환
+545,D80-D89,면역메커니즘을 침범하는 특정 장애
+546,E00-E07,갑상선의 장애
+547,E10-E14,당뇨병
+548,E15-E16,포도당 조절 및 췌장 내분비의 기타 장애
+549,E20-E35,기타 내분비선의 장애
+550,E40-E46,영양실조
+551,E50-E64,기타 영양결핍
+552,E65-E68,비만 및 기타 과다영양
+553,E70-E90,대사장애
+554,F00-F09,증상성을 포함하는 기질성 정신장애
+555,F10-F19,정신활성 물질의 사용에 의한 정신 및 행동장애
+556,F20-F29,정신분열병
+557,F30-F39,기분[정동] 장애
+558,F40-F48,신경증성
+559,F50-F59,생리적 장애 및 신체적 요인들과 수반된 행동증후군
+560,F60-F69,성인 인격 및 행동의 장애
+561,F70-F79,정신지연
+562,F80-F89,정신발달장애
+563,F90-F98,소아기 및 청소년기에 주로 발병하는 행동 및 정서장애
+564,F99,상세불명의 정신장애
+565,G00-G09,중추신경계통의 염증성 질환
+566,G10-G14,일차적으로 중추신경계통에 영향을 주는 계통성 위축
+567,G20-G26,추체외로 및 운동 장애
+568,G30-G32,신경계통의 기타 퇴행성 질환
+569,G35-G37,중추신경계통의 탈수초질환
+570,G40-G47,우발적 및 발작적 장애
+571,G50-G59,신경
+572,G60-G64,다발신경병증 및 말초신경계통의 기타 장애
+573,G70-G73,근신경 이행부 및 근육의 질환
+574,G80-G83,뇌성마비 및 기타 마비증후군
+575,G90-G99,신경계통의 기타 장애
+576,H00-H06,눈꺼풀
+577,H10-H13,결막의 장애
+578,H15-H22,공막
+579,H25-H28,수정체의 장애
+580,H30-H36,맥락막 및 망막의 장애
+581,H40-H42,녹내장
+582,H43-H45,유리체 및 안구의 장애
+583,H46-H48,시신경 및 시각로의 장애
+584,H49-H52,안근
+585,H53-H54,시각장애 및 실명
+586,H55-H59,눈 및 눈부속기의 기타 장애
+587,H60-H62,외이의 질환
+588,H65-H75,중이 및 유돌의 질환
+589,H80-H83,내이의 질환
+590,H90-H95,귀의 기타 장애
+591,I00-I02,급성 류마티스열
+592,I05-I09,만성 류마티스심장질환
+593,I10-I15,고혈압질환
+594,I20-I25,허혈성 심장질환
+595,I26-I28,폐성 심장병 및 폐순환의 질환
+596,I30-I52,기타 형태의 심장병
+597,I60-I69,뇌혈관질환
+598,I70-I79,동맥
+599,I80-I89,달리 분류되지 않은 정맥
+600,I95-I99,순환계통의 기타 및 상세불명의 장애
+601,J00-J06,급성 상기도감염
+602,J09-J18,인플루엔자 및 폐렴
+603,J20-J22,기타 급성 하기도감염
+604,J30-J39,상기도의 기타 질환
+605,J40-J47,만성 하기도질환
+606,J60-J70,외부 요인에 의한 폐질환
+607,J80-J84,주로 간질에 영향을 주는 기타 호흡기질환
+608,J85-J86,하기도의 화농성 및 괴사성 병태
+609,J90-J94,흉막의 기타 질환
+610,J95-J99,호흡계통의 기타 질환
+611,K00-K14,구강
+612,K20-K31,식도
+613,K35-K38,충수의 질환
+614,K40-K46,탈장
+615,K50-K52,비감염성 장염 및 결장염
+616,K55-K63,장의 기타 질환
+617,K65-K67,복막의 질환
+618,K70-K77,간의 질환
+619,K80-K87,담낭
+620,K90-K93,소화계통의 기타 질환
+621,L00-L08,피부 및 피하조직의 감염
+622,L10-L14,수포성 장애
+623,L20-L30,피부염 및 습진
+624,L40-L45,구진비늘장애
+625,L50-L54,두드러기 및 홍반
+626,L55-L59,피부 및 피하조직의 방사선-관련장애
+627,L60-L75,피부부속물의 장애
+628,L80-L99,피부 및 피하조직의 기타 장애
+629,M00-M03,감염성 관절병증
+630,M05-M14,염증성 다발관절병증
+631,M15-M19,관절증
+632,M20-M25,기타 관절장애
+633,M30-M36,전신결합조직장애
+634,M40-M43,변형성 등병증
+635,M45-M49,척추병증
+636,M50-M54,기타 등병증
+637,M60-M63,근육 장애
+638,M65-M68,윤활막 및 힘줄장애
+639,M70-M79,기타 연조직 장애
+640,M80-M85,골밀도 및 구조장애
+641,M86-M90,기타 골병증
+642,M91-M94,연골병증
+643,M95-M99,근골격계통 및 결합조직의 기타 장애
+644,N00-N08,사구체질환
+645,N10-N16,세뇨관-간질질환
+646,N17-N19,신부전
+647,N20-N23,요로결석증
+648,N25-N29,신장 및 요관의 기타 장애
+649,N30-N39,비뇨계통의 기타 질환
+650,N40-N51,남성 생식기관의 질환
+651,N60-N64,유방의 장애
+652,N70-N77,여성 골반내 기관의 염증성 질환
+653,N80-N98,여성생식관의 비염증성 장애
+654,N99,비뇨생식계통의 기타 장애
+655,O00-O08,유산된 임신
+656,O10-O16,임신
+657,O20-O29,주로 임신과 관련된 기타 모성 장애
+658,O30-O48,태아와 양막강 및 가능한 분만 문제와 관련된 산모관리
+659,O60-O75,진통 및 분만의 합병증
+660,O80-O84,분만
+661,O85-O92,주로 산후기에 관련된 합병증
+662,O94-O99,달리 분류되지 않은 기타 산과적 병태
+663,P00-P04,모성 요인과 임신
+664,P05-P08,임신 기간 및 태아발육과 관련된 장애
+665,P10-P15,출산외상
+666,P20-P29,출생전후기에 특이한 호흡기 및 심혈관 장애
+667,P35-P39,출생전후기에 특이한 감염
+668,P50-P61,태아 및 신생아의 출혈성 및 혈액학적 장애
+669,P70-P74,태아 또는 신생아에 특이한 일과성 내분비 및 대사장애
+670,P75-P78,태아 및 신생아의 소화계통 장애
+671,P80-P83,태아 및 신생아의 외피 및 체온조절에 관련되는 병태
+672,P90-P96,출생전후기에 기원한 기타 장애
+673,Q00-Q07,신경계통의 선천기형
+674,Q10-Q18,눈
+675,Q20-Q28,순환계통의 선천기형
+676,Q30-Q34,호흡계통의 선천기형
+677,Q35-Q37,구순열 및 구개열
+678,Q38-Q45,소화계통의 기타 선천기형
+679,Q50-Q56,생식기관의 선천기형
+680,Q60-Q64,비뇨계통의 선천기형
+681,Q65-Q79,근골격계통의 선천기형 및 변형
+682,Q80-Q89,기타 선천기형
+683,Q90-Q99,달리 분류되지 않은 염색체이상
+684,R00-R09,순환계통 및 호흡계통을 침범한 증상 및 징후
+685,R10-R19,소화계통 및 복부를 침범한 증상 및 징후
+686,R20-R23,피부 및 피하조직을 침범하는 증상 및 징후
+687,R25-R29,신경계통 및 근골격계통을 침범하는 증상 및 징후
+688,R30-R39,비뇨계통을 침습한 증상 및 징후
+689,R40-R46,인지
+690,R47-R49,말하기 및 음성에 관한 증상 및 징후
+691,R50-R69,전신 증상 및 징후
+692,R70-R79,진단명 없는 혈액검사상 이상 소견
+693,R80-R82,진단명 없는 요 검사상의 이상소견
+694,R83-R89,진단명 없는 기타 체액
+695,R90-R94,진단명 없는 진단적 영상 및 기능검사 이상소견
+696,R95-R99,불명확하고 미상의 사인
+697,S00-S09,머리의 손상
+698,S10-S19,목의 손상
+699,S20-S29,흉곽의 손상
+700,S30-S39,복부
+701,S40-S49,어깨 및 위팔의 손상
+702,S50-S59,팔꿈치 및 아래팔의 손상
+703,S60-S69,손목 및 손의 손상
+704,S70-S79,둔부 및 대퇴의 손상
+705,S80-S89,무릎 및 아래다리의 손상
+706,S90-S99,발목 및 발의 손상
+707,T00-T07,여러 신체 부위를 포함하는 손상
+708,T08-T14,몸통
+709,T15-T19,자연개구를 통해 들어간 이물의 영향
+710,T20-T25,부위가 명시된 외부 신체 표면의 화상 및 부식
+711,T26-T28,눈 및 내부기관에 국한된 화상 및 부식
+712,T29-T32,상세불명 신체 부위의 다발성 화상 및 부식
+713,T33-T35,동상
+714,T36-T50,약물
+715,T51-T65,기원이 주로 비의약용 물질의 독작용
+716,T66-T78,외인의 기타 및 상세불명의 영향
+717,T79,외상에 의한 특정 조기 합병증
+718,T80-T88,달리 분류되지 않은 외과적 및 내과적 치료의 합병증
+719,T90-T98,손상
+720,U00-U19,불확실한 병인의 신종질환의 잠정적 지정
+721,U20-U33,한의병명(韓醫病名)
+722,U50-U79,한의병증(韓醫病證)
+723,U80-U89,항생제에 내성이 있는 세균감염체
+724,U95-U98,사상체질병증(四象體質病證)
+725,U99,재발한 악성 신생물
+726,V01-V09,운수사고에서 다친 보행자
+727,V10-V19,운수사고에서 다친 자전거 탑승자
+728,V20-V29,운수사고에서 다친 모터사이클 탑승자
+729,V30-V39,운수사고에서 다친 삼륜자동차 탑승자
+730,V40-V49,운수사고에서 다친 승용차 탑승자
+731,V50-V59,운수사고에서 다친 픽업트럭 또는 밴 탑승자
+732,V60-V69,운수사고에서 다친 대형화물차 탑승자
+733,V70-V79,운수사고에서 다친 버스 탑승자
+734,V80-V89,기타 육상 운수사고
+735,V90-V94,수상운수 사고
+736,V95-V97,항공 및 우주 운수 사고
+737,V98-V99,기타 및 상세 불명의 운수사고
+738,W00-W19,낙상
+739,W20-W49,무생물성 기계적 힘에 노출
+740,W50-W64,생물성 기계적 힘에 노출
+741,W65-W74,우발적 익사 및 익수
+742,W75-W84,기타 호흡과 관련된 불의의 위협
+743,W85-W99,전류
+744,X00-X09,연기
+745,X10-X19,열 및 가열된 물질과의 접촉
+746,X20-X29,독액성 동물 및 식물과의 접촉
+747,X30-X39,자연의 힘에 노출
+748,X40-X49,유독성 물질에 의한 불의의 중독 및 노출
+749,X50-X57,과로
+750,X58-X59,기타 및 상세불명의 요인에 불의의 노출
+751,X60-X84,고의적 자해
+752,X85-Y09,가해
+753,Y10-Y34,의도 미확인 사건
+754,Y35-Y36,법적 개입 및 전쟁행위
+755,Y40-Y59,치료시 유해작용을 나타내는 약물
+756,Y60-Y69,외과적 및 내과적 치료중 환자의 재난
+757,Y70-Y82,진단 및 치료에 사용되는 의료장치에 의한 유해효과
+758,Y83-Y84,처치 당시에는 재난의 언급이 없었으나 환자에게 이상반응이나 후에 합병증을 일으키게 한 외과적 및 기타 내과적 처치
+759,Y85-Y89,질병이환과 사망의 외인의 후유증
+760,Y90-Y98,달리 분류된 질병이환 및 사망원인과 관련된 보조요인
+761,Z00-Z13,검사 및 조사를 위해 보건서비스와 접하고 있는 사람
+762,Z20-Z29,전염성 질환과 관련되어 잠재적인 건강 위험이 있는 사람
+763,Z30-Z39,생식과 관련된 상황에서 보건서비스와 접하고 있는 사람
+764,Z40-Z54,특수처치 및 건강보호를 위하여 보건서비스와 접하고 있는 사람
+765,Z55-Z65,사회경제적 및 정신사회적 상황에 관련된 잠재적 보건위험이 있는 사람
+766,Z70-Z76,기타 상황에서 보건서비스와 접하고 있는 사람
+767,Z80-Z99,가족 및 개인 기왕력과 건강상태에 영향을 주는 특정 병태에 관련된 잠재적 건강위험을 가진 사람
+768,Unknown,Unknown
+769,1003,magnesium trihydrate salt
+770,1006,acarbose
+771,1007,acebrophylline
+772,1009,aceclofenac
+773,1013,acetaminophen
+774,1014,acetaminophen encapsulated
+775,1016,acetylcarnitine HCl
+776,1018,acetylcysteine
+777,1025,aclatonium napdisilate
+778,1029,acyclovir
+779,1041,afloqualone
+780,1048,alfuzosin HCl
+781,1050,allopurinol
+782,1052,almagate
+783,1055,alprazolam
+784,1059,aluminum hydroxide gel(dried)
+785,1063,ambroxol HCl
+786,1068,amikacin sulfate
+787,1071,amino acids
+788,1073,aminophylline
+789,1075,amitriptyline HCl
+790,1076,amlodipine besylate
+791,1078,amorolfine (HCl)
+792,1081,amoxicillin
+793,1099,arginine sodium
+794,1104,ascorbic acid
+795,1105,asparagine-??-ornithine
+796,1107,aspirin
+797,1108,aspirin encapsulated
+798,1110,aspirin(enteric coated)
+799,1114,atenolol
+800,1115,atorvastatin(calcium)
+801,1118,atropine sulfate
+802,1122,avocado soya unsaponifiables
+803,1125,azelastine HCl
+804,1127,azithromycin
+805,1132,bacillus licheniformis
+806,1135,baclofen
+807,1136,bambuterol HCl
+808,1150,benexate betadex
+809,1151,benidipine HCl
+810,1153,benoxinate HCl
+811,1158,benzonatate
+812,1160,benztropine mesylate
+813,1161,benzydamine HCl
+814,1162,beraprost sodium
+815,1163,betahistine mesylate
+816,1165,betamethasone sodium phosphate
+817,1169,bethanechol chloride
+818,1177,biphenyl dimethyl dicarboxylate
+819,1178,bisacodyl
+820,1179,bisoprolol hemifumarate
+821,1184,brimonidine tartrate
+822,1185,bromazepam
+823,1186,bromhexine HCl
+824,1194,budesonide
+825,1201,bupivacaine HCl
+826,1202,buprenorphine HCl
+827,1205,buspirone HCl
+828,1216,calcitriol
+829,1217,calcium acetate
+830,1218,calcium carbonate
+831,1219,calcium carbonate p.p.t.
+832,1223,calcium polycarbophil
+833,1226,candesartan cilexetil
+834,1231,carbamazepine
+835,1238,carboxymethylcysteine-s
+836,1239,carduus marianus ext.
+837,1240,carduus marianus ext. powder
+838,1250,carvedilol
+839,1252,cefaclor
+840,1253,cefadroxil
+841,1257,cefazolin sodium
+842,1259,cefdinir
+843,1260,cefditoren pivoxil
+844,1263,cefixime
+845,1271,cefotaxime sodium
+846,1272,cefotetan disodium
+847,1273,cefotiam HCl
+848,1279,cefpodoxime proxetil
+849,1280,cefprozil
+850,1281,cefroxadine
+851,1285,ceftezole sodium
+852,1288,ceftriaxone sodium
+853,1289,cefuroxime axetil
+854,1300,cephazedone sodium
+855,1301,cephradine
+856,1305,cetirizine HCl
+857,1313,chlorhexidine gluconate
+858,1317,chlorphenesin carbamate
+859,1318,chlorpheniramine maleate
+860,1319,chlorpromazine HCl
+861,1325,chondroitin sodium sulfate
+862,1331,cilnidipine
+863,1332,cilostazol
+864,1333,cimetidine
+865,1335,cimetropium bromide
+866,1341,ciprofloxacin HCl
+867,1349,clarithromycin
+868,1358,clobetasol propionate
+869,1364,clonazepam
+870,1369,clopidogrel
+871,1373,clotiazepam
+872,1374,clotrimazole
+873,1377,codeine phosphate
+874,1378,colchicine
+875,1381,collinalpocereate
+876,1413,desflurane
+877,1414,desmopressin acetate
+878,1415,desonide
+879,1416,desoxymethasone
+880,1419,dexamethasone
+881,1422,dexamethasone sodium phosphate
+882,1423,dexibuprofen
+883,1427,dextrose
+884,1428,diacerhein
+885,1429,diazepam
+886,1435,diclofenac sodium
+887,1436,diclofenac-??-dimethyl-aminoethanol
+888,1444,diflorasone diacetate
+889,1445,diflucortolone valerate
+890,1448,digoxin
+891,1457,diltiazem HCl
+892,1459,dimenhydrinate
+893,1464,dioctahedral smectite
+894,1465,diomagnite
+895,1466,diosmine
+896,1477,divalproex sodium
+897,1480,d-mannitol
+898,1484,domperidone
+899,1485,domperidone maleate
+900,1486,donepezil HCl
+901,1491,doxazocin mesylate
+902,1495,doxycycline
+903,1497,doxycycline hyclate
+904,1500,dried ivy leaf ext.(5~7.5:1)
+905,1506,ebastine
+906,1511,elcatonin
+907,1513,emedastine fumarate
+908,1516,enalapril maleate
+909,1523,eperisone HCl
+910,1524,ephedrine HCl
+911,1525,epinastine HCl
+912,1526,epinephrine HCl
+913,1531,erdosteine
+914,1543,erythropoietin-??
+915,1565,etizolam
+916,1566,etodolac
+917,1572,famciclovir
+918,1573,famotidine
+919,1575,felodipine
+920,1577,fenofibrate
+921,1579,fenoterol Hbr
+922,1582,fentanyl
+923,1583,fentanyl citrate
+924,1590,finasteride
+925,1592,flavoxate HCl
+926,1595,flomoxef sodium
+927,1599,fluconazole
+928,1605,flunarizine HCl
+929,1606,flunitrazepam
+930,1612,fluorometholone
+931,1614,fluorouracil-5
+932,1615,fluoxetine HCl
+933,1618,flurazepam HCl
+934,1623,flutrimazol
+935,1626,folic acid
+936,1631,formoterol fumarate
+937,1636,fraction flavonoid purifiee micronise
+938,1638,furosemide
+939,1642,gabapentin
+940,1644,galactosidase(??)
+941,1645,galamine triethiodide
+942,1651,gentamicin sulfate
+943,1653,ginkgo biloba ext.
+944,1656,gliclazide
+945,1657,glimepiride
+946,1664,glucose
+947,1670,glycopyrrolate
+948,1679,haloperidol
+949,1684,hemocoagulase
+950,1686,heparin sodium
+951,1693,human anti-tetanus immunoglobulin
+952,1701,human insulin
+953,1708,hydrochlorothiazide
+954,1709,hydrocortisone
+955,1712,hydrocortisone sodium succinate
+956,1717,hydroxychloroquine sulfate
+957,1721,hydroxyzine HCl
+958,1723,hyoscine butylbromide
+959,1728,ibuprofen
+960,1737,imipramine HCl
+961,1744,indapamide
+962,1750,inosiplex
+963,1753,insulin lispro
+964,1760,iobitridol
+965,1763,iohexol
+966,1764,iomeprol
+967,1765,iopamidol
+968,1767,iopromide
+969,1769,ioversol
+970,1771,ipratropium bromide
+971,1773,irbesartan
+972,1784,isosorbide dinitrate
+973,1785,isosorbide mononitrate
+974,1790,itopride
+975,1791,itraconazole
+976,1793,kallidinogenase
+977,1797,ketoprofen
+978,1800,ketorolac tromethamine
+979,1801,ketotifen fumarate
+980,1803,lacidipine
+981,1805,lactobacillus acidophillus
+982,1808,lactulose
+983,1810,lamotrigin
+984,1813,lansoprazole
+985,1815,latanoprost
+986,1820,lercanidipine HCl
+987,1825,leucovorin calcium
+988,1831,levodropropizine
+989,1832,levofloxacin
+990,1835,levosulpiride
+991,1836,levothyroxine sodium
+992,1839,lidocaine HCl
+993,1841,limaprost
+994,1842,lincomycin HCl
+995,1847,lithium carbonate
+996,1851,loperamide HCl
+997,1852,loperamide oxide
+998,1854,loratadine
+999,1855,lorazepam
+1000,1857,losartan potassium
+1001,1861,loxoprofen sodium
+1002,1874,magnesium hydroxide
+1003,1875,magnesium oxide
+1004,1886,mecobalamin
+1005,1890,mefenamic acid
+1006,1893,megestrol acetate
+1007,1897,meloxicam
+1008,1900,memantine HCl
+1009,1904,mepivacain HCl
+1010,1905,mequitazine
+1011,1915,metformin HCl
+1012,1918,methimazole
+1013,1920,methocarbamol
+1014,1921,methotrexate
+1015,1924,"methyl N,S diacetylcysteine"
+1016,1930,methylergonovine maleate
+1017,1931,methylol cephalexin lysinate
+1018,1932,methylphenidate HCl
+1019,1933,methylprednisolone
+1020,1934,methylprednisolone aceponate
+1021,1936,methylprednisolone sodium succinate
+1022,1937,metoclopramide HCl
+1023,1941,metronidazole
+1024,1947,micro emulsion cyclosporine
+1025,1949,micronized fenofibrate
+1026,1952,midazolam
+1027,1959,minocycline HCl
+1028,1962,mirtazapine
+1029,1963,misoprostol
+1030,1973,morphine sulfate
+1031,1976,mupirocin
+1032,1981,nabumetone
+1033,1986,nafronyl oxalate
+1034,1994,naproxen
+1035,1995,naproxen sodium
+1036,2007,netilmicin sulfate
+1037,2010,nicardifine HCl
+1038,2012,nicergoline
+1039,2013,nicorandile
+1040,2014,nifedipine
+1041,2018,nimesulide
+1042,2026,nitroglycerin diluted(10%)
+1043,2027,nizatidine
+1044,2034,nortryptiline HCl
+1045,2038,octylonium bromide
+1046,2039,ofloxacin
+1047,2040,olanzapine
+1048,2044,omeprazole
+1049,2052,orphenadrine citrate
+1050,2053,orphenadrine HCl
+1051,2056,ossopan substance
+1052,2065,oxiracetam
+1053,2075,oxytocin
+1054,2089,pantoprazol sodium sesquihydrate
+1055,2093,paroxetine HCl
+1056,2096,pemirolast potassium
+1057,2108,pentoxifylline
+1058,2113,perindopril tetrabutylamine
+1059,2114,perphenazine
+1060,2115,pethidine HCl
+1061,2121,phloroglucinol
+1062,2125,pinaverium bromide
+1063,2133,piprinhydrinate
+1064,2136,pirenoxine
+1065,2140,piroxicam
+1066,2141,piroxicam potassium
+1067,2146,plantago seed / plantago seed cortex
+1068,2154,polystyrene sulfonate calcium
+1069,2158,potassium chloride
+1070,2161,povidone
+1071,2162,povidone iodide
+1072,2164,pranlukast hydrate
+1073,2165,pranoprofen
+1074,2166,pravastatin sodium
+1075,2169,prednicarbate
+1076,2170,prednisolone
+1077,2171,prednisolone acetate
+1078,2175,prednisolone valerate
+1079,2176,pridinol mesylate
+1080,2183,procaterol HCl
+1081,2184,procyclidine HCl
+1082,2194,propacetamol HCl
+1083,2196,proparacaine HCl
+1084,2197,propiverine HCl
+1085,2198,propofol
+1086,2199,propranolol HCl
+1087,2201,propylthiouracil
+1088,2209,pseudoephedrine HCl
+1089,2214,pyridostigmine bromide
+1090,2222,rabeprazole sodium
+1091,2224,ramipril
+1092,2228,ranitidine HCl
+1093,2229,rebamipide
+1094,2238,ribostamycin sulfate
+1095,2242,risperidone
+1096,2247,rocuronium bromide
+1097,2249,ropinirole HCl
+1098,2250,ropivacaine
+1099,2252,roxatidine acetate HCl
+1100,2253,roxithromycin
+1101,2254,saccharomyces cerevisiae hansen CBS-5926
+1102,2255,salbutamol sulfate
+1103,2261,sarpogrelate HCl
+1104,2267,serenoa repens lipidosterolic ext.
+1105,2270,sertraline HCl
+1106,2273,sevoflurane
+1107,2274,silver sulfadiazine
+1108,2276,simaldrate
+1109,2277,simethicone
+1110,2278,simvastatin
+1111,2282,sobrerol
+1112,2283,sodium alendronate
+1113,2285,sodium bicarbonate
+1114,2286,sodium carboxymethyl cellulose
+1115,2287,sodium chloride
+1116,2292,sodium hyaluronate
+1117,2296,sodium tianeptine
+1118,2297,sodium valproate
+1119,2300,solcoseryl120 ext.
+1120,2311,spironolactone
+1121,2318,streptococcus faecium strain cernelle-68
+1122,2323,sucralfate
+1123,2331,sulglycotide
+1124,2333,sulodexide
+1125,2342,tacrolimus
+1126,2344,talniflumate
+1127,2346,tamsulosin HCl
+1128,2354,teprenone
+1129,2355,terazosin HCl
+1130,2356,terbinafine
+1131,2357,terbinafine HCl
+1132,2370,theophylline
+1133,2373,thiamine HCl
+1134,2390,tibolone
+1135,2398,tinidazole
+1136,2403,tiropramide HCl
+1137,2407,tizanidine HCl
+1138,2408,tobramycin
+1139,2409,tobramycin sulfate
+1140,2412,tofisopam
+1141,2418,topiramate
+1142,2420,torasemide
+1143,2423,tramadol HCl
+1144,2425,tranexamic acid
+1145,2429,trazodone HCl
+1146,2432,triamcinolone
+1147,2433,triamcinolone acetonide
+1148,2435,triazolam
+1149,2441,triflusal
+1150,2443,trimebutine maleate
+1151,2445,trimetazidine 2HCl
+1152,2461,urea
+1153,2465,ursodeoxycholic acid
+1154,2466,vaccinium myrtillus ext.
+1155,2467,valaciclovir
+1156,2471,valsartan
+1157,2475,venlafaxin HCl
+1158,2488,vitamin-K1
+1159,2489,vitis vinifera ext.
+1160,2490,voglibose
+1161,2491,warfarin sodium
+1162,2492,water for inj.
+1163,2499,zaltoprofen
+1164,2505,zolpidem
+1165,2507,zopiclone
+1166,2509,??-lipoic acid
+1167,2512,??-linoleic acid
+1168,2518,"caffeine anhydrous,ergotamine tartrate"
+1169,2567,"aescin,thiocolchicoside"
+1170,2599,"cetirizine HCl,pseudoephedrine HCl"
+1171,2600,"chlorpheniramine maleate,phenylephrine"
+1172,2601,"ebastine,pseudoephedrin"
+1173,2602,"pseudoephedrine HCl,triprolidine HCl"
+1174,2621,"atenolol,chlorthalidone"
+1175,2625,"hydrochlorothiazide,losartan potassium"
+1176,2647,"ambroxol HCl,clenbuterol HCl"
+1177,2648,"ambroxol HCl,clenbuterol HCl"
+1178,2665,"dextromethorphan Hbr,guaifenesin,pseudoephedrine HCl"
+1179,2673,"ammonium chloride,chlorpheniramine maleate,dihydrocodeine tartrate,methylephedrine HCl"
+1180,2674,"caffeine anhydrous,chlorpheniramine maleate,dihydrocodeine tartrate,methylephedrine HCl"
+1181,2677,"chlorpheniramine maleate,dihydrocodeine tartrate,guaifenesin,methylephedrine HCl"
+1182,2680,"chlorpheniramine maleate,dihydrocodeine tartrate,guaifenesin,methylephedrine HCl"
+1183,2718,"ranitidine HCl,sucralfate,tripotassium dicitrato bismuthate"
+1184,2943,"alverine citrate,simethicone"
+1185,2944,"clebopride malate,simethicone,clebopride malate,simethicone"
+1186,2956,"bromelain,dehydrocholic acid,pancreatin,simethicone,trimebutine maleate"
+1187,2969,"betamethasone,㎗-chlorpheniramine maleate"
+1188,3016,"ascorbic acid,biotin,calcium pantothenate,cyanocobalamin,folic acid,nicotin amide,pyridoxine HCl,riboflavin,thiamine nitrate"
+1189,3026,"calcium carbonate,cholecalciferol"
+1190,3032,"calcium carbonate p.p.t.,calcium gluconate,calcium lactate,ergocalciferol"
+1191,3034,"ferrous sulfate dried,serine"
+1192,3059,"biphenyl dimethyl dicarboxylate,garlic oil"
+1193,3104,"amoxicillin sodium,potassium clavulanate"
+1194,3105,"amoxicillin sodium,potassium clavulanate"
+1195,3106,"amoxicillin sodium,potassium clavulanate"
+1196,3107,"amoxicillin sodium,potassium clavulanate"
+1197,3110,"metronidazole,spiramycin"
+1198,3115,"sulfamethoxazole,trimethoprim,sulfamethoxazole,trimethoprim"
+1199,3134,"codeine phosphate,ibuprofen,paracetamol"
+1200,3140,"epinephrine,lidicaine HCl"
+1201,3141,"epinephrine HCl,lidocaine HCl"
+1202,3143,"epinephrine bitartrate,lidocaine HCl"
+1203,3145,"epinephrine bitartrate,lidocaine HCl"
+1204,3164,"cyanocobalamin,dexpanthenol,nicotinamide,pyridoxine HCl,riboflavin sodium phosphate,thiamine HCl"
+1205,3166,"biotin,cyanocobalamin,dexpanthenol,nicotinamide,pyridoxine HCl,riboflavin sodium phosphate,thiamine HCl"
+1206,3170,"ascorbic acid,thiamine HCl,tocopherol acetate,vitamin A3,biotin,cyanocobalamin,dexpanthenol,ergocalciferol,folic acid,nicotinamide,pyridoxine HCl,riboflavin sodium phosphate"
+1207,3190,"dextrose,sodium chloride"
+1208,3195,"dextrose,potassium chloride,sodium chloride"
+1209,3202,"dextrose,sodium chloride"
+1210,3204,"dextrose,sodium chloride"
+1211,3207,"calcium chloride,potassium chloride,sodium chloride,sodium lactate"
+1212,3209,"calcium chloride,dextrose,potassium chloride,sodium chloride,sodium lactate"
+1213,3234,"calcium chloride,dextrose,magnesium chloride,potassium chloride,sodium acetate,sodium chloride"
+1214,3235,"calcium chloride,dextrose,magnesium chloride,sodium chloride,sodium acetate anhydrous,potassium chloride"
+1215,3284,"aconitum tinc D2,hamamelis tinc-D1,hypericum tinc-D2,mercur solub hahnem-D6,millefolium tinc-D3,symphytum tinc-D2,aristolochiaclematitis tinc-D3,arnica tinc-D2,belladonna tinc-D2,bellis perennis tinc-D2,calendula tinc-D2,chamomilla tinc-D3,echinacea angustifol tinc-D2,echinacea purpurea tinc-D2"
+1216,3285,"ampicillin sodium,sulbactam sodium"
+1217,3296,"piperacillin sodium,tazobactam"
+1218,3315,"dexamethasone,tobramycin"
+1219,3321,"dorzolamide HCl,timolol maleate"
+1220,3323,"fluorometholone,tetrahydrozoline HCl"
+1221,3330,"potassium iodide,sodium iodide"
+1222,3335,"dexamethasone,neomycin sulfate,polymixin B sulfate"
+1223,3346,"fluticasone propionate,salmeterol xinafoate"
+1224,3364,"neomycin sulfate,nystatin,polymixin B sulfate"
+1225,3428,"econazole nitrate,triamcinolone acetonide,econazole nitrate,triamcinolone acetonide"
+1226,3449,"betamethasone dipropionate,gentamicin sulfate"
+1227,3455,"diflucortolone valerate,isoconazole nitrate"
+1228,3464,"betamethasone dipropionate,clotrimazole,gentamicin sulfate,betamethasone dipropionate,clotrimazole,gentamicin sulfate"
+1229,3477,celecoxib
+1230,3479,fexofenadine
+1231,3486,"dextrose, sodium chloride"
+1232,3490,"magnesium chloride, potassium chloride, sodium acetate, sodium chloride, sodium gluconate"
+1233,3494,"calcium chloride, potassium chloride, sodium chloride, sodium lactate"
+1234,3495,"calcium chloride, dextrose, potassium chloride, sodium chloride, sodium lactate"
+1235,3504,"calcium chloride, magnesium chloride, potassium chloride, sodium acetate, sodium chloride"
+1236,3564,"hydrochlorothiazide, valsartan"
+1237,3567,ecabet sodium
+1238,3571,tolterodine L-tartrate
+1239,3580,raloxifene hydrochloride
+1240,3585,"amoxicillin sodium,potassium clavulanate"
+1241,3589,oseltamivir phosphate
+1242,3590,oxycodone hydrochloride
+1243,3612,"oxytetracycline HCl,polymyxin B sulfate"
+1244,3613,mometasone furoate
+1245,3672,esomeprazol magnesium
+1246,3681,"clotrimazole,hydrocortisone"
+1247,3684,sodium pertechnetate(Tc-99m)
+1248,3706,oxygen gas
+1249,3746,montelukast sodium
+1250,3786,quetiapine fumarate
+1251,3788,telmisartan
+1252,3789,"hydrochlorothiazide, losartan potassium"
+1253,3800,"amoxicillin, pivoxil sulbactam"
+1254,3803,moxifloxacin hydrochloride
+1255,3857,"hydrochlorothiazide, irbesartan"
+1256,3917,olopatadine hydrochloride
+1257,4006,"dextrose, potassium chloride, sodium chloride"
+1258,4025,pramipexole dihydrochloride
+1259,4166,"위령선, 괄루근, 하고초 ethanol ext."
+1260,4210,mosapride citrate
+1261,4237,"candesartan cilexetil, hydrochlorothiazide"
+1262,4238,neltenexine monohydrate
+1263,4278,"adenine hydrochloride, antitoxic liver ext., biphenyl dimethyl dicarboxylate, carnitine orotate, cyanocobalamin, pyridoxine hydrochloride, riboflavin"
+1264,4290,levocloperastine fendizoate
+1265,4301,artemisiae argyi folium ethanol ext.(20→1)
+1266,4319,pioglitazone hydrochloride
+1267,4389,streptokinase·streptodornase
+1268,4391,doxofylline
+1269,4413,insulin aspart
+1270,4423,risedronate sodium
+1271,4426,"hydrochlorothiazide, valsartan"
+1272,4432,"hydrochlorothiazide, telmisartan"
+1273,4433,"hydrochlorothiazide, telmisartan"
+1274,4465,"amoxicillin sodium,potassium clavulanate"
+1275,4502,"articaine hydrochloride, epinephrine bitartrate"
+1276,4504,"acetylcysteine,chlorpheniramine maleate"
+1277,4512,bromelain
+1278,4515,aripiprazole
+1279,4520,rifaximin
+1280,4521,tulobuterol
+1281,4539,bepotastine besilate
+1282,4540,rosuvastatin calcium
+1283,4557,darbepoetin α
+1284,4573,micronized tiotropium bromide monohydrate
+1285,4576,remifentanil hydrochloride
+1286,4577,acitazanolast hydrate
+1287,4584,morniflumate
+1288,4588,dutasteride
+1289,4598,amlodipine maleate
+1290,4599,amlodipine camsylate
+1291,4611,lactobacillus casei var. rhamnosus
+1292,4617,metoclopramide HCl
+1293,4618,insulin glargine
+1294,4620,"amoxicillin, clavulanate potassium"
+1295,4627,calcium citrate
+1296,4636,levocetirizine dihydrochloride
+1297,4646,amlodipine adipate
+1298,4685,olmesartan medoxomil
+1299,4709,pitavastatin calcium
+1300,4710,"ezetimibe, simvastatin"
+1301,4711,"ezetimibe, simvastatin"
+1302,4723,amlodipine besylate
+1303,4735,bacillus subtilis·streptococcus faecium(streptococcus faecium subtilis
+1304,4738,calcium carbonate
+1305,4743,"glimepiride, metformin hydrochloride"
+1306,4744,cefcapene pivoxil hydrochloride hydrate
+1307,4748,escitalopram oxalate
+1308,4762,amlodipine orotate
+1309,4786,omega-3-acid ethyl esters90
+1310,4795,"calcium chloride, dextrose anhydrous, glacial acetic acid, magnesium chloride, potassium chloride, sodium chloride"
+1311,4802,calcium carbonate
+1312,4803,ibandronate sodium monohydrate
+1313,4804,Pregabalin
+1314,4806,"acetaminophen, tramadol hydrochloride"
+1315,4832,S-amlodipine besylate
+1316,4865,S-amlodipine nicotinate
+1317,4869,"hydrochlorothiazide, losartan potassium"
+1318,4870,petasites hybridus CO2 extracts
+1319,4872,entecavir
+1320,4885,levetiracetam
+1321,4893,lafutidine
+1322,4895,nebivolol hydrochloride
+1323,4900,palonosetron hydrochloride
+1324,4903,pelargonium sidoides ethanol ext.(1→8~10)
+1325,4904,"drospirenone, estrodiol hemihydrate"
+1326,4925,clopidogrel resinate
+1327,4928,amlodipine besylate
+1328,4929,amlodipine besylate
+1329,4932,caffeine anhydrous
+1330,4934,pelubiprofen
+1331,4938,solifenacin succinate
+1332,4939,tenofovir disoproxil fumarate
+1333,4942,irsogladine maleate
+1334,4955,duloxetine hydrochloride
+1335,4958,amlodipine besylate
+1336,4980,esomeprazol strontium tetrahydrate
+1337,4982,calcium carbonate
+1338,5002,cholecalciferol concentrated powder
+1339,5003,erythropoietin
+1340,5004,fluticasone furoate(micronized)
+1341,5005,amlodipine besylate
+1342,5008,vildagliptin
+1343,5009,risedronate
+1344,5011,sitagliptin phosphate hydrate
+1345,5023,"metformin hydrochloride, sitagliptin phosphate hydrate"
+1346,5027,n/a
+1347,5029,"metformin hydrochloride, sitagliptin phosphate hydrate"
+1348,5030,n/a
+1349,5033,theobromine
+1350,5042,silodosin
+1351,5055,ilaprazole
+1352,5056,polaprezinc
+1353,5061,"cilostazol, ginkgo biloba leaf ext."
+1354,5070,"metformin hydrochloride, vildagliptin"
+1355,5071,"metformin hydrochloride, vildagliptin"
+1356,5077,"estriol, lactobacillus acidophilus(lyophilized)"
+1357,5088,bepotastine calcium dihydrate
+1358,5099,esomeprazole
+1359,5100,ciclesonide(micronized)
+1360,5112,cholecalciferol concentrated powder
+1361,5115,amlodipine besylate
+1362,5116,amlodipine besylate
+1363,5130,"acetaminophen, tramadol hydrochloride"
+1364,5136,"hydrochlorothiazide, olmesartan medoxomil"
+1365,5137,"metformin hydrochloride, sitagliptin phosphate hydrate"
+1366,5141,"acetaminophen, tramadol hydrochloride"
+1367,5152,fimasartan potassium trihydrate
+1368,5154,"phenylephrine hydrochloride, tropicamide"
+1369,5167,신바로건조엑스(20→1)
+1370,5179,"aspirin, clopidogrel bisulfate"
+1371,5180,esomeprazol magnesium
+1372,5192,S-pantoprazol sodium trihydrate
+1373,5196,"metformin hydrochloride, vildagliptin"
+1374,5203,fenofibric acid
+1375,5205,"linagliptin, metformin hydrochloride"
+1376,5206,"linagliptin, metformin hydrochloride"
+1377,5207,"linagliptin, metformin hydrochloride"
+1378,5212,S-amlodipine besylate
+1379,5216,bepotastine salicylate
+1380,5221,bromelain
+1381,5235,esomeprazol strontium tetrahydrate
+1382,5247,"metformin hydrochloride, sitagliptin phosphate hydrate"
+1383,5248,"levocetirizine dihydrochloride, pseudoephedrine hydrochloride"
+1384,5259,lobeglitazone sulfate
+1385,5515,desloratadine
+1386,5674,febuxostat
+1387,5728,Nitrous oxide
+1388,6141,dried coptidis rhizoma ext.
+1389,6142,naftopidil
+1390,6149,corydalis tuber·pharbitis seed(5:1) ethanol ext.(9.5~11.5→1)
+1391,6163,"polyethylene glycol, sodium sulfate anhydrous, sodium chloride, potassium chloride, ascorbic acid, sodium ascorbate"
+1392,6164,linagliptin
+1393,6173,diquafosol sodium
+1394,6182,당귀·목과·방풍·속단·오가피·우슬·위령선·육계·진교·천궁·천마·홍화 ethanol soft ext.(3.5→1)
+1395,6191,gemigliptin tartrate sesquihydrate
+1396,6217,artemisiae argyi folium isopropanol soft ext.(20→1)
+1397,6219,dexlansoprazole
+1398,6242,alogliptin benzoate
+1399,6318,ranitidine hydrochloride
