@@ -28,10 +28,14 @@ def to_dict_idx(string, data_type, D):
             return out + 500
         except KeyError
     elif data_type=='pres':
+        print("start:" ,string)
+        string = string[:4]
         try:
             out = D[string]
+            print("Out: ",out)
             return out + 768
         except KeyError:
+            print("Error")
             return 768
 
 # function for obtaining sickness type
