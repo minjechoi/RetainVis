@@ -26,16 +26,17 @@ def to_dict_idx(string, data_type, D):
         try:
             out = get_classified_sickness(string, D[0], D[1])
             return out + 500
-        except KeyError
+        except KeyError:
+            return 500
     elif data_type=='pres':
-        print("start:" ,string)
+        # print("start:" ,string)
         string = string[:4]
         try:
             out = D[string]
-            print("Out: ",out)
+            # print("Out: ",out)
             return out + 768
         except KeyError:
-            print("Error")
+            # print("Error")
             return 768
 
 # function for obtaining sickness type
