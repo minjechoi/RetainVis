@@ -62,3 +62,16 @@ def decay_fn(time,ver=1):
             return 1.0/time
     elif ver==2:
         return 1/np.log(np.e+time)
+
+def get_inverted_dates(date_list,ver=1):
+    tmp1 = [1]
+    start = date_converter(date_list[0])
+    for date in date_list[1:]:
+        date = date_converter(date)
+        diff = np.max((1,date-start))
+        start = date
+        diff = decay_fn(diff,ver)
+        tmp1.append(diff)
+    return np.array(tmp1)
+
+
