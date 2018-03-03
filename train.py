@@ -20,10 +20,10 @@ parser.add_argument("--emb", help="embedding size of model", default=128,
     type=int)
 parser.add_argument("--hid", help="hidden size of model", default=128,
     type=int)
-parser.add_argument("--lr", help="learning rate size", default=0.001,
-    type=float)
 parser.add_argument("--epoch", help="number of epochs", default=30,
     type=int)
+parser.add_argument("--lr", help="learning rate size", default=0.0001,
+    type=float)
 parser.add_argument("--cuda", help="whether to use cuda",
     action="store_true")
 
@@ -76,6 +76,7 @@ opt = optim.Adam(model.parameters(), lr=lr)
 stamp = 100
 for epoch in range(epochs):
     str1 = '========= Epoch %d ============' %(epoch+1)
+    print(str1)
     with open(file_dir,'a') as f:
         f.write(str1)
         f.write('\n')
@@ -117,7 +118,12 @@ for epoch in range(epochs):
         score_list.extend(outputs[:,1].data.cpu().tolist())
         predict_list.extend(outputs.topk(1)[1].data.cpu().squeeze().tolist())
         loss_list.append(loss.data[0])
-    torch.save(model.state_dict(),'experiments/I50/saved_weights/%s_epochs_%d.pckl'%(args.ver,epoch+1))
+    model.cpu()
+    torch.save(model.state_dict(),'experiments/I50/saved_weights/%s_epochs_%d_cpu.pckl'%(args.ver,epoch+1))
+    if args.cuda:
+        model.cuda()
+        torch.save(model.state_dict(),'experiments/I50/saved_weights/%s_epochs_%d_cuda.pckl'%(args.ver,epoch+1))
+
     str2 = '-------------------------------'
     str_loss = "Avg. loss for %d steps: %1.3f" %(i+1,np.mean(loss_list))
     str2 = '-------------------------------'
