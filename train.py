@@ -16,6 +16,8 @@ from functions import date_converter, decay_fn, get_dates
 parser = argparse.ArgumentParser()
 parser.add_argument("--ver", help="which model to use", default='retain',
     type=str)
+parser.add_argument("--target", help="which data to test on", default='I50',
+    type=str)
 parser.add_argument("--emb", help="embedding size of model", default=128,
     type=int)
 parser.add_argument("--hid", help="hidden size of model", default=128,
@@ -51,7 +53,7 @@ if args.ver=='time':
     filename = args.ver+'_'+str(args.decay)+'_'+time.ctime().replace(' ','').replace(':','')+'.txt'
 else:
     filename = args.ver+'_'+time.ctime().replace(' ','').replace(':','')+'.txt'
-file_dir = os.path.join('experiments/I50/logs',filename)
+file_dir = os.path.join('experiments/%s/logs'%args.target,filename)
 print("Saving logs at %s"%file_dir)
 info = "Model: %s\nEmb size: %d\nHid size: %d\n Cuda: %s\n\
         LR: %1.5f\nEpochs: %d\n" %(args.ver,args.emb,args.hid,str(args.cuda),args.lr,args.epoch)
@@ -63,9 +65,9 @@ with open(file_dir,'a') as f:
     f.write('\n\n')
 
 # load data
-with open('data/preprocessed/I50/list_data_2014.pckl','rb') as f1:
+with open('data/preprocessed/%s/list_data_2014.pckl'%args.target,'rb') as f1:
     L1 = pickle.load(f1)
-with open('data/preprocessed/I50/list_data_2015.pckl','rb') as f1:
+with open('data/preprocessed/%s/list_data_2015.pckl'%args.target,'rb') as f1:
     L2 = pickle.load(f1)
 # get training and test data
 tr_data = L1[:3000]+L2[:3500]
@@ -133,10 +135,10 @@ for epoch in range(epochs):
         name = args.ver+'_'+str(args.decay)
     else:
         name = args.ver
-    torch.save(model.state_dict(),'experiments/I50/saved_weights/%s_epochs_%d_cpu.pckl'%(name,epoch+1))
+    torch.save(model.state_dict(),'experiments/%s/saved_weights/%s_epochs_%d_cpu.pckl'%(args.target,name,epoch+1))
     if args.cuda:
         model.cuda()
-        torch.save(model.state_dict(),'experiments/I50/saved_weights/%s_epochs_%d_cuda.pckl'%(name,epoch+1))
+        torch.save(model.state_dict(),'experiments/%s/saved_weights/%s_epochs_%d_cuda.pckl'%(args.target,name,epoch+1))
 
     # test model
     model.eval()
