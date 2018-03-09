@@ -7,13 +7,18 @@ import time
 
 class RETAIN(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes,
-        cuda_flag=False, bidirectional=False):
+        cuda_flag=False, bidirectional=True, decay_ver=1):
         super(RETAIN,self).__init__()
         self.hidden_size = hidden_size
         self.input_size = input_size
         self.cuda_flag = cuda_flag
         self.release = False # if set to true, then we return all values in computing
         self.bidirectional = bidirectional
+        self.decay_ver = decay_ver
+        if decay_ver==3:
+            self.decay_params = nn.Parameter(torch.Tensor([np.e,0,0]))
+            # if cuda_flag:
+                # self.decay_params = self.decay_params.cuda()
 
         emb = nn.Embedding(1400,input_size)
         self.emb = emb.weight
@@ -48,9 +53,11 @@ class RETAIN(nn.Module):
         if self.bidirectional:
             # add version where reverse is taken in
             embedded_b = embedded.data.cpu().numpy()
-            embedded_b = Variable(torch.Tensor(np.flip(embedded_b,1)))
+            embedded_b = np.array(np.flip(embedded_b,1))
+            embedded_b = Variable(torch.Tensor(embedded_b))
             timestamps_b = timestamps.data.cpu().numpy()
-            timestamps_b = Variable(torch.Tensor(np.flip(timestamps_b,1)))
+            timestamps_b = np.array(np.flip(timestamps_b,1))
+            timestamps_b = Variable(torch.Tensor(timestamps_b))
             if self.cuda_flag:
                 embedded_b = embedded_b.cuda()
                 timestamps_b = timestamps_b.cuda()
@@ -58,15 +65,12 @@ class RETAIN(nn.Module):
             outputs2b = self.RNN2b(embedded_b, timestamps_b, reverse=True)
             outputs1 = torch.stack([outputs1,outputs1b],2)
             outputs2 = torch.stack([outputs2,outputs2b],2)
-
-        E = self.wa(outputs1.contiguous().view(-1, self.hidden_size)) # [b*seq x 1]
+        E = self.wa(outputs1.contiguous().view(b*seq, -1)) # [b*seq x 1]
         alpha = F.softmax(E.view(b,seq),1) # [b x seq]
         if self.release:
             self.alpha = alpha
 
-        # get beta coefficients
-        outputs2 = self.RNN2(embedded, timestamps) # [b x seq x 128]
-        outputs2 = self.Wb(outputs2.contiguous().view(-1,self.hidden_size)) # [b*seq x hid]
+        outputs2 = self.Wb(outputs2.contiguous().view(b*seq,-1)) # [b*seq x hid]
         Beta = torch.tanh(outputs2).view(b, seq, self.hidden_size) # [b x seq x 128]
         if self.release:
             self.Beta = Beta
@@ -75,6 +79,15 @@ class RETAIN(nn.Module):
 
 
     # multiply to inputs
+
+    def decay_fn(self, dates):
+        if self.decay_ver==1:
+            return 1/dates
+        elif self.decay_ver==2:
+            return 1/torch.log(np.e+dates)
+        elif self.decay_ver==3:
+            a,b,c = self.decay_params
+            return F.tanh(1/torch.log(a+dates*b)*c)
 
     def compute(self, embedded, Beta, alpha):
         b,seq,_ = embedded.size()
