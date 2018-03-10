@@ -70,8 +70,10 @@ with open('data/preprocessed/%s/list_data_2014.pckl'%args.target,'rb') as f1:
 with open('data/preprocessed/%s/list_data_2015.pckl'%args.target,'rb') as f1:
     L2 = pickle.load(f1)
 # get training and test data
-tr_data = L1[:3000]+L2[:3500]
-t_data = L1[3000:]+L2[3500:]
+t1 = int(len(L1)*0.7)
+t2 = int(len(L2)*0.7)
+tr_data = L1[:t1]+L2[:t2]
+t_data = L1[t1:]+L2[t2:]
 
 if args.ver=='gru':
     model = GRU(emb, hid, 1, args.cuda)
