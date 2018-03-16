@@ -74,4 +74,12 @@ def get_inverted_dates(date_list,ver=1):
         tmp1.append(diff)
     return np.array(tmp1)
 
-
+def get_dates(date_list):
+    tmp1 = [1]
+    start = date_converter(date_list[0])
+    for date in date_list[1:]:
+        date = date_converter(date)
+        diff = np.max((1,date-start))
+        start = date
+        tmp1.append(diff)
+    return np.array(tmp1)
