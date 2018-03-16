@@ -17,7 +17,7 @@ class GRU(nn.Module):
         self.RNN = nn.GRU(input_size,hidden_size,batch_first=True, bidirectional=True)
         self.W_out = nn.Linear(hidden_size*2,num_classes,bias=False)
 
-    def forward(self, inputs, timestamps):
+    def forward(self, inputs):
         # get embedding using self.emb
         b,seq,features = inputs.size()
         embedded = torch.mm(inputs.view(-1,features),self.emb).view(b,seq,-1)
@@ -26,7 +26,7 @@ class GRU(nn.Module):
 
         # get outputs
         outputs = self.RNN(embedded) # [b, seq, hid*2]
-        outputs = self.W_out(outputs.contiguous()[:,-1,:]) # [b, num_classes]
+        outputs = self.W_out(outputs[0].contiguous()[:,-1,:]) # [b, num_classes]
         return outputs
 
     def list_to_tensor(self,inputs): # deals with input preprocessing
