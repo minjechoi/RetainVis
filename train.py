@@ -5,93 +5,77 @@ from torch.autograd import Variable
 import numpy as np
 import time
 import os
+import random
 import pickle
 import argparse
-from sklearn.metrics import roc_auc_score, precision_score, recall_score, accuracy_score
-
-
-from functions import date_converter, decay_fn, get_dates
-
+from sklearn.metrics import roc_auc_score as AUC
+from sklearn.metrics import average_precision_score as AUCPR
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--ver", help="which model to use", default='retain',
-    type=str)
-parser.add_argument("--target", help="which data to test on", default='I50',
-    type=str)
-parser.add_argument("--emb", help="embedding size of model", default=128,
-    type=int)
-parser.add_argument("--hid", help="hidden size of model", default=128,
-    type=int)
-parser.add_argument("--epoch", help="number of epochs", default=10,
-    type=int)
-parser.add_argument("--lr", help="learning rate size", default=0.00001,
-    type=float)
-parser.add_argument("--decay", help="which decay function to use", default=1,
-    type=int)
-parser.add_argument("--cuda", help="whether to use cuda",
-    action="store_true")
+parser.add_argument("--ver", help="which model to use", type=str)
+parser.add_argument("--task", help="which data to test on", type=str)
+parser.add_argument("--hid", help="hidden size of model", type=int)
+parser.add_argument("--epoch", help="number of epochs", default=30, type=int)
+parser.add_argument("--lr", help="learning rate size", type=float)
+parser.add_argument("--time", help="which time function to use (0:none, 1:decay, 2:add)", type=int)
+parser.add_argument("--cuda", help="whether to use cuda", action="store_true")
 
 args = parser.parse_args()
-args.ver = args.ver.lower().strip()
-if args.ver=='retain':
+ver = args.ver.lower().strip()
+task = args.task
+hid = args.hid
+emb = args.hid
+lr = args.lr
+time_fn = args.time
+cuda_flag = args.cuda
+epochs = args.epoch
+
+# load model
+if ver=='retain':
     from models.retain_bidirectional import RETAIN
-elif args.ver=='time':
-    from models.retain_time import RETAIN
-elif args.ver=='gru':
+    model = RETAIN(emb, hid, 1, cuda_flag)
+elif ver=='ex':
+    from models.retain_ex import RETAIN_EX
+    model = RETAIN_EX(emb, hid, 1, cuda_flag, time_fn)
+elif ver=='gru':
     from models.gru_bidirectional import GRU
+    model = GRU(emb, hid, 1, cuda_flag)
 else:
-    print("Error! --ver must be either 'retain', 'time', or 'gru'")
+    print("Error! --ver must be either 'retain', 'ex', or 'gru'")
     import sys
     sys.exit()
+if cuda_flag:
+    model.cuda()
 
-lr = args.lr
-hid = args.hid
-emb = args.emb
-epochs = args.epoch
-print(args)
-if args.ver=='time':
-    filename = args.ver+'_'+str(args.decay)+'_'+time.ctime().replace(' ','').replace(':','')+'.txt'
+# set save directories
+if ver=='ex':
+    # e.g. experiments/H26/ex-1_128_0.01/
+    save_dir = 'experiments/%s/%s-%d_%d_%1.4f'%(task,time_fn,ver,hid,lr)
 else:
-    filename = args.ver+'_'+time.ctime().replace(' ','').replace(':','')+'.txt'
-file_dir = os.path.join('experiments/%s/logs'%args.target,filename)
-print("Saving logs at %s"%file_dir)
-info = "Model: %s\nEmb size: %d\nHid size: %d\n Cuda: %s\n\
-        LR: %1.5f\nEpochs: %d\n" %(args.ver,args.emb,args.hid,str(args.cuda),args.lr,args.epoch)
-if args.ver=='time':
-    info+='Decay type: %d\n' %(args.decay)
-print(info)
-with open(file_dir,'a') as f:
-    f.write(info)
-    f.write('\n\n')
+    # e.g. experiments/H26/gru_128_0.01/
+    save_dir = 'experiments/%s/%s_%d_%1.4f'%(task,ver,hid,lr)
+log_dir = os.path.join(save_dir,'logs')
+weight_dir = os.path.join(save_dir,'saved_weights')
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
+if not os.path.exists(weight_dir):
+    os.makedirs(weight_dir)
+log_file = os.path.join(log_dir,'log.txt')
+val_file =os.path.join(log_dir,'val.txt')
 
 # load data
-with open('data/preprocessed/%s/list_data_2014.pckl'%args.target,'rb') as f1:
-    L1 = pickle.load(f1)
-with open('data/preprocessed/%s/list_data_2015.pckl'%args.target,'rb') as f1:
-    L2 = pickle.load(f1)
-# get training and test data
-t1 = int(len(L1)*0.7)
-t2 = int(len(L2)*0.7)
-tr_data = L1[:t1]+L2[:t2]
-t_data = L1[t1:]+L2[t2:]
+with open('data/%s/train.pckl'%args.task,'rb') as f:
+    tr_data = pickle.load(f)
+with open('data/%s/val.pckl'%args.task,'rb') as f:
+    val_data = pickle.load(f)
 
-if args.ver=='gru':
-    model = GRU(emb, hid, 1, args.cuda)
-elif args.ver=='retain':
-    model = RETAIN(emb, hid, 1, args.cuda)
-elif args.ver=='time':
-    model = RETAIN(emb, hid, 1, args.cuda, args.decay)
-if args.cuda:
-    model.cuda()
-# criterion = nn.CrossEntropyLoss()
+# set optimizer and loss
 criterion = nn.BCELoss()
 opt = optim.Adam(model.parameters(), lr=lr)
-
 stamp = 100
 
-def print_and_save(file_dir,string):
-    print(string)
-    with open(file_dir,'a') as f:
+def print_and_save(log_file,string):
+    with open(log_file,'a') as f:
         f.write(string+'\n')
 
 def calculate(X,y,model,args):
@@ -107,132 +91,53 @@ def calculate(X,y,model,args):
     if args.cuda:
         dates = dates.cuda()
         targets = targets.cuda()
-    if args.ver=='time':
+    if args.ver=='ex':
         outputs = model(inputs,dates)
     else:
         outputs = model(inputs)
     outputs = F.sigmoid(outputs.squeeze())
     return outputs, targets
 
+cnt = 0
 for epoch in range(epochs):
     # train model
     model.train()
     str1 = '========= Epoch %d ============' %(epoch+1)
-    print_and_save(file_dir,str1)
-    for i in range(len(tr_data)):
+    print_and_save(log_file,str1)
+    random.shuffle(tr_data)
+    loss_list = []
+    for i in range(len(tr_data[:10])):
         X,y = tr_data[i]
+        cnt+=1
+        model.zero_grad()
         outputs,targets = calculate(X,y,model,args)
         loss = criterion(outputs,targets)
         loss.backward()
+        loss_list.append(loss.data[0])
         opt.step()
-        if (i%100==0) & (i!=0):
-            log_data = "Epoch %d: [%d] Loss: %1.3f" %(epoch+1,i,loss.data[0])
-            print(log_data)
-            with open(file_dir,'a') as f:
-                f.write(log_data+'\n')
+        if (cnt%stamp==0):
+            log_data = "Epoch %d,[%d],[%d],%1.3f" %(epoch+1,i,cnt,np.mean(loss_list))
+            loss_list = []
+            print_and_save(log_file,log_data)
 
     # save model
     model.cpu()
-    if args.ver=='time':
-        name = args.ver+'_'+str(args.decay)
-    else:
-        name = args.ver
-    torch.save(model.state_dict(),'experiments/%s/saved_weights/%s_epochs_%d_cpu.pckl'%(args.target,name,epoch+1))
-    if args.cuda:
+    torch.save(model.state_dict(),os.path.join(weight_dir,'%d_cpu.pckl'%(epoch+1)))
+    if cuda_flag:
         model.cuda()
-        torch.save(model.state_dict(),'experiments/%s/saved_weights/%s_epochs_%d_cuda.pckl'%(args.target,name,epoch+1))
+        torch.save(model.state_dict(),os.path.join(weight_dir,'%d_cuda.pckl'%(epoch+1)))
 
-    # test model
+    # validate model
     model.eval()
     correct_list = []
     score_list = []
-    predict_list = []
-    for i in range(len(t_data)):
-        X,y = t_data[i]
+    for i in range(len(val_data[:3])):
+        X,y = val_data[i]
         outputs, targets = calculate(X,y,model,args)
-        # outputs = F.softmax(outputs,1)
         correct_list.extend(y)
         score_list.extend(outputs.data.cpu().tolist())
-        predict_list.extend((outputs>0.5).data.tolist())
-        # predict_list.extend(outputs.topk(1)[1].data.cpu().squeeze().tolist())
 
-    str2 = '====== [Test] Epoch %d ======' %(epoch+1)
-    str_acc = "Avg. ACC  for %d steps: %1.3f" %(i+1,accuracy_score(correct_list,predict_list))
-    str_auc = "Avg. AUC for %d steps: %1.3f" %(i+1,roc_auc_score(correct_list,score_list,'macro'))
-    str_prec = "Avg. prec for %d steps: %1.3f" %(i+1,precision_score(correct_list,predict_list))
-    str_recall = "Avg. rec  for %d steps: %1.3f" %(i+1,recall_score(correct_list,predict_list))
-    print_and_save(file_dir,str2)
-    print_and_save(file_dir,str_acc)
-    print_and_save(file_dir,str_auc)
-    print_and_save(file_dir,str_prec)
-    print_and_save(file_dir,str_recall)
-
-# for epoch in range(epochs):
-#     log_list = []
-#     str1 = '========= Epoch %d ============' %(epoch+1)
-#     print(str1)
-#     with open(file_dir,'a') as f:
-#         f.write(str1)
-#         f.write('\n')
-#     log_list.append(str1)
-#     for i in range(len(tr_data)):
-#         X,y = tr_data[i]
-#         date_list = []
-#         input_list = []
-#         for sample in X:
-#             _,dates_,inputs_,_ = zip(*sample)
-#             date_list.append(get_dates(dates_))
-#             input_list.append(list(inputs_))
-#         inputs = model.list_to_tensor(input_list)
-#         dates = Variable(torch.Tensor(date_list), requires_grad=False)
-#         targets = Variable(torch.LongTensor(np.array(y,dtype=int)))
-#         if args.cuda:
-#             dates = dates.cuda()
-#             targets = targets.cuda()
-#         if args.ver=='time':
-#             outputs = model(inputs,dates)
-#         else:
-#             outputs = model(inputs)
-#         loss = criterion(outputs,targets)
-#         loss.backward()
-#         opt.step()
-#         if (i%100==0) & (i!=0):
-#             log_data = "Epoch %d: [%d] Loss: %1.3f" %(epoch+1,i,loss.data[0])
-#             print(log_data)
-#             with open(file_dir,'a') as f:
-#                 f.write(log_data+'\n')
-#         # append to lists
-#         correct_list.extend(y)
-#         score_list.extend(outputs[:,1].data.cpu().tolist())
-#         predict_list.extend(outputs.topk(1)[1].data.cpu().squeeze().tolist())
-#         loss_list.append(loss.data[0])
-#     model.cpu()
-#     if args.ver=='time':
-#         name = args.ver+'_'+str(args.decay)
-#     else:
-#         name = args.ver
-#     torch.save(model.state_dict(),'experiments/I50/saved_weights/%s_epochs_%d_cpu.pckl'%(name,epoch+1))
-#     if args.cuda:
-#         model.cuda()
-#         torch.save(model.state_dict(),'experiments/I50/saved_weights/%s_epochs_%d_cuda.pckl'%(name,epoch+1))
-
-
-
-#     str2 = '-------------------------------'
-#     str_loss = "Avg. loss for %d steps: %1.3f" %(i+1,np.mean(loss_list))
-#     str2 = '-------------------------------'
-#     str_acc = "Avg. ACC  for %d steps: %1.3f" %(i+1,accuracy_score(correct_list,predict_list))
-#     str_macro_auc = "Avg. AUC for %d steps: %1.3f" %(i+1,roc_auc_score(correct_list,score_list,'macro'))
-#     str_prec = "Avg. prec for %d steps: %1.3f" %(i+1,precision_score(correct_list,predict_list))
-#     str_recall = "Avg. rec  for %d steps: %1.3f" %(i+1,recall_score(correct_list,predict_list))
-#     log_list.extend([str2,str_loss,str2,str_acc,str_micro_auc,str_macro_auc,str_prec,str_recall])
-#     # log_list = [str1,str_loss,str2,str_acc,str_micro_auc,str_macro_auc,str_prec,str_recall]
-#     with open(file_dir,'a') as f:
-#         f.write('\n'.join(log_list)+'\n')
-#     for log in log_list:
-#         print(log)
-#     loss_list = []
-#     correct_list = []
-#     predict_list = []
-#     score_list = []
-# f.close()
+    str_auc = "Epoch %d,%1.3f" %(epoch+1,AUC(correct_list,score_list))
+    str_aucpr = "Epoch %d,%1.3f" %(epoch+1,AUCPR(correct_list,score_list))
+    print_and_save(val_file,str_auc)
+    print_and_save(val_file,str_aucpr)
