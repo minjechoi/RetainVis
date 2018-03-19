@@ -8,6 +8,7 @@ import os
 import random
 import pickle
 import argparse
+from functions import get_dates
 from sklearn.metrics import roc_auc_score as AUC
 from sklearn.metrics import average_precision_score as AUCPR
 
@@ -50,7 +51,7 @@ if cuda_flag:
 # set save directories
 if ver=='ex':
     # e.g. experiments/H26/ex-1_128_0.01/
-    save_dir = 'experiments/%s/%s-%d_%d_%1.4f'%(task,time_fn,ver,hid,lr)
+    save_dir = 'experiments/%s/%s-%d_%d_%1.4f'%(task,ver,time_fn,hid,lr)
 else:
     # e.g. experiments/H26/gru_128_0.01/
     save_dir = 'experiments/%s/%s_%d_%1.4f'%(task,ver,hid,lr)
@@ -106,7 +107,7 @@ for epoch in range(epochs):
     print_and_save(log_file,str1)
     random.shuffle(tr_data)
     loss_list = []
-    for i in range(len(tr_data[:10])):
+    for i in range(len(tr_data[:100])):
         X,y = tr_data[i]
         cnt+=1
         model.zero_grad()
@@ -116,7 +117,7 @@ for epoch in range(epochs):
         loss_list.append(loss.data[0])
         opt.step()
         if (cnt%stamp==0):
-            log_data = "Epoch %d,[%d],[%d],%1.3f" %(epoch+1,i,cnt,np.mean(loss_list))
+            log_data = "Epoch %d,[%d],[%d],%1.3f" %(epoch+1,i+1,cnt,np.mean(loss_list))
             loss_list = []
             print_and_save(log_file,log_data)
 
@@ -137,7 +138,7 @@ for epoch in range(epochs):
         correct_list.extend(y)
         score_list.extend(outputs.data.cpu().tolist())
 
-    str_auc = "Epoch %d,%1.3f" %(epoch+1,AUC(correct_list,score_list))
-    str_aucpr = "Epoch %d,%1.3f" %(epoch+1,AUCPR(correct_list,score_list))
+    str_auc = "Epoch %d,AUC,%1.3f" %(epoch+1,AUC(correct_list,score_list))
+    str_aucpr = "Epoch %d,AUCPR,%1.3f" %(epoch+1,AUCPR(correct_list,score_list))
     print_and_save(val_file,str_auc)
     print_and_save(val_file,str_aucpr)
