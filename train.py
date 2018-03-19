@@ -65,9 +65,9 @@ log_file = os.path.join(log_dir,'log.txt')
 val_file =os.path.join(log_dir,'val.txt')
 
 # load data
-with open('data/%s/train.pckl'%args.task,'rb') as f:
+with open('data/%s/train.pckl'%task,'rb') as f:
     tr_data = pickle.load(f)
-with open('data/%s/val.pckl'%args.task,'rb') as f:
+with open('data/%s/val.pckl'%task,'rb') as f:
     val_data = pickle.load(f)
 
 # set optimizer and loss
