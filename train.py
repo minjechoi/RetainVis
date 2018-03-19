@@ -79,7 +79,7 @@ def print_and_save(log_file,string):
     with open(log_file,'a') as f:
         f.write(string+'\n')
 
-def calculate(X,y,model,args):
+def calculate(X,y,model,ver,cuda_flag):
     date_list = []
     input_list = []
     for sample in X:
@@ -89,10 +89,10 @@ def calculate(X,y,model,args):
     inputs = model.list_to_tensor(input_list)
     dates = Variable(torch.Tensor(date_list), requires_grad=False)
     targets = Variable(torch.Tensor(np.array(y,dtype=int)))
-    if args.cuda:
+    if cuda_flag:
         dates = dates.cuda()
         targets = targets.cuda()
-    if args.ver=='ex':
+    if ver=='ex':
         outputs = model(inputs,dates)
     else:
         outputs = model(inputs)
@@ -111,7 +111,7 @@ for epoch in range(epochs):
         X,y = tr_data[i]
         cnt+=1
         model.zero_grad()
-        outputs,targets = calculate(X,y,model,args)
+        outputs, targets = calculate(X,y,model,ver,cuda_flag)
         loss = criterion(outputs,targets)
         loss.backward()
         loss_list.append(loss.data[0])
@@ -134,7 +134,7 @@ for epoch in range(epochs):
     score_list = []
     for i in range(len(val_data[:3])):
         X,y = val_data[i]
-        outputs, targets = calculate(X,y,model,args)
+        outputs, targets = calculate(X,y,model,ver,cuda_flag)
         correct_list.extend(y)
         score_list.extend(outputs.data.cpu().tolist())
 
