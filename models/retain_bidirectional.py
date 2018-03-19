@@ -14,10 +14,6 @@ class RETAIN(nn.Module):
         emb = nn.Embedding(1400,input_size)
         self.emb = emb.weight
 
-        # self.emb = Variable(torch.Tensor(1400,input_size).normal_(),requires_grad=True)
-        # if cuda_flag:
-        #     self.emb = self.emb.cuda()
-
         self.RNN1 = nn.RNN(input_size,hidden_size,1,batch_first=True,bidirectional=True)
         self.RNN2 = nn.RNN(input_size,hidden_size,1,batch_first=True,bidirectional=True)
         self.wa = nn.Linear(hidden_size*2,1,bias=False)
@@ -33,7 +29,6 @@ class RETAIN(nn.Module):
 
         # get alpha coefficients
         outputs1 = self.RNN1(embedded) # [b x seq x 128*2]
-#         print(outputs1)
         E = self.wa(outputs1[0].contiguous().view(-1, self.hidden_size*2)) # [b*seq x 1]
         alpha = F.softmax(E.view(b,seq),1) # [b x seq]
         if self.release:
@@ -45,12 +40,9 @@ class RETAIN(nn.Module):
         Beta = torch.tanh(outputs2).view(b, seq, self.hidden_size) # [b x seq x 128]
         if self.release:
             self.Beta = Beta
-
         return self.compute(embedded, Beta, alpha)
 
-
     # multiply to inputs
-
     def compute(self, embedded, Beta, alpha):
         b,seq,_ = embedded.size()
         outputs = (embedded*Beta)*alpha.unsqueeze(2).expand(b,seq,self.hidden_size)
@@ -68,8 +60,6 @@ class RETAIN(nn.Module):
                 for item in visit:
                     input_tensor[i,j,item]=1
         return input_tensor
-        # embedded =  torch.mm(input_tensor, self.emb) # [samples*sequences, hidden]
-        # return embedded.view(len(inputs),len(inputs[0]),-1)
 
     # fixed version of interpret
     def interpret(self,u,v,i,o):
