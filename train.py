@@ -91,10 +91,13 @@ def calculate(X,y,model,ver,cuda_flag):
     targets = Variable(torch.Tensor(np.array(y,dtype=int)))
     if cuda_flag:
         targets = targets.cuda()
-    if ver=='ex':
-        dates = Variable(torch.Tensor(date_list), requires_grad=False)
-        if cuda_flag:
-            dates = dates.cuda()
+    if (ver=='ex'):
+        if time_fn==1:
+            dates = Variable(torch.Tensor(date_list), requires_grad=False)
+            if cuda_flag:
+                dates = dates.cuda()
+        else:
+            dates = date_list
         outputs = model(inputs,dates)
     else:
         outputs = model(inputs)
