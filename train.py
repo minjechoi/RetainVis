@@ -2,6 +2,7 @@ import torch
 from torch import optim,nn
 import torch.nn.functional as F
 from torch.autograd import Variable
+import gc
 import numpy as np
 import time
 import os
@@ -9,8 +10,8 @@ import random
 import pickle
 import argparse
 from functions import get_dates
-from sklearn.metrics import roc_auc_score as AUC
-from sklearn.metrics import average_precision_score as AUCPR
+# from sklearn.metrics import roc_auc_score as AUC
+# from sklearn.metrics import average_precision_score as AUCPR
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--ver", help="which model to use", type=str)
@@ -87,12 +88,13 @@ def calculate(X,y,model,ver,cuda_flag):
         date_list.append(get_dates(dates_))
         input_list.append(list(inputs_))
     inputs = model.list_to_tensor(input_list)
-    dates = Variable(torch.Tensor(date_list), requires_grad=False)
     targets = Variable(torch.Tensor(np.array(y,dtype=int)))
     if cuda_flag:
-        dates = dates.cuda()
         targets = targets.cuda()
     if ver=='ex':
+        dates = Variable(torch.Tensor(date_list), requires_grad=False)
+        if cuda_flag:
+            dates = dates.cuda()
         outputs = model(inputs,dates)
     else:
         outputs = model(inputs)
@@ -107,7 +109,7 @@ for epoch in range(epochs):
     print_and_save(log_file,str1)
     random.shuffle(tr_data)
     loss_list = []
-    for i in range(len(tr_data[:100])):
+    for i in range(len(tr_data)):
         X,y = tr_data[i]
         cnt+=1
         model.zero_grad()
@@ -129,16 +131,16 @@ for epoch in range(epochs):
         torch.save(model.state_dict(),os.path.join(weight_dir,'%d_cuda.pckl'%(epoch+1)))
 
     # validate model
-    model.eval()
-    correct_list = []
-    score_list = []
-    for i in range(len(val_data[:3])):
-        X,y = val_data[i]
-        outputs, targets = calculate(X,y,model,ver,cuda_flag)
-        correct_list.extend(y)
-        score_list.extend(outputs.data.cpu().tolist())
+    # model.eval()
+    # correct_list = []
+    # score_list = []
+    # for i in range(len(val_data)):
+    #     X,y = val_data[i]
+    #     outputs, targets = calculate(X,y,model,ver,cuda_flag)
+    #     correct_list.extend(y)
+    #     score_list.extend(outputs.data.cpu().tolist())
 
-    str_auc = "Epoch %d,AUC,%1.3f" %(epoch+1,AUC(correct_list,score_list))
-    str_aucpr = "Epoch %d,AUCPR,%1.3f" %(epoch+1,AUCPR(correct_list,score_list))
-    print_and_save(val_file,str_auc)
-    print_and_save(val_file,str_aucpr)
+    # str_auc = "Epoch %d,AUC,%1.3f" %(epoch+1,AUC(correct_list,score_list))
+    # str_aucpr = "Epoch %d,AUCPR,%1.3f" %(epoch+1,AUCPR(correct_list,score_list))
+    # print_and_save(val_file,str_auc)
+    # print_and_save(val_file,str_aucpr)
