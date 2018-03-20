@@ -20,7 +20,7 @@ parser.add_argument("--task", help="which data to test on", type=str, default='I
 parser.add_argument("--hid", help="hidden size of model", type=int, default=128)
 parser.add_argument("--epoch", help="number of epochs", default=30, type=int)
 parser.add_argument("--lr", help="learning rate size", type=float, default=0.001)
-parser.add_argument("--time_ver", help="which time function to use (0:none, 1:add)", type=int, default=0)
+parser.add_argument("--time", help="which time function to use (0:none, 1:add)", type=int, default=0)
 parser.add_argument("--cuda", help="whether to use cuda", action="store_true")
 
 args = parser.parse_args()
@@ -29,7 +29,7 @@ task = args.task
 hid = args.hid
 emb = args.hid
 lr = args.lr
-time_ver = args.time_ver
+time_ver = args.time
 cuda_flag = args.cuda
 epochs = args.epoch
 
@@ -53,7 +53,7 @@ if cuda_flag:
 # set save directories
 if ver=='ex':
     # e.g. experiments/H26/ex-1_128_0.01/
-    save_dir = 'experiments/%s/%s-%d_%d_%s'%(task,ver,time_fn,hid,str(lr))
+    save_dir = 'experiments/%s/%s-%d_%d_%s'%(task,ver,time_ver,hid,str(lr))
 else:
     # e.g. experiments/H26/gru_128_0.01/
     save_dir = 'experiments/%s/%s_%d_%s'%(task,ver,hid,str(lr))
@@ -117,7 +117,7 @@ for epoch in range(epochs):
         X,y = tr_data[i]
         cnt+=1
         model.zero_grad()
-        outputs, targets = calculate(X,y,model,ver,cuda_flag,time_fn)
+        outputs, targets = calculate(X,y,model,ver,cuda_flag,time_ver)
         loss = criterion(outputs,targets)
         loss.backward()
         loss_list.append(loss.data[0])
