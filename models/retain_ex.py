@@ -15,7 +15,6 @@ class RETAIN_EX(nn.Module):
         self.release = False # if set to true, then we return all values in computing
         self.bidirectional = bidirectional
         self.time_ver = time_ver
-
         emb1 = nn.Embedding(1400,input_size)
         self.emb1 = emb1.weight
         emb2 = nn.Embedding(1400,input_size)
@@ -86,7 +85,5 @@ class RETAIN_EX(nn.Module):
         W_emb = self.emb2[i] # [h]
         W = self.W_out.weight[o] # [h]
         out = a*(B*W_emb)
-        if self.release:
-            out = self.out
         # out = a*torch.dot(W,(B*W_emb))
         return torch.dot(W,out)
