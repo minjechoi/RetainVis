@@ -20,7 +20,7 @@ parser.add_argument("--task", help="which data to test on", type=str)
 parser.add_argument("--hid", help="hidden size of model", type=int)
 parser.add_argument("--epoch", help="number of epochs", default=30, type=int)
 parser.add_argument("--lr", help="learning rate size", type=float)
-parser.add_argument("--time", help="which time function to use (0:none, 1:add)", type=int)
+parser.add_argument("--time_ver", help="which time function to use (0:none, 1:add)", type=int)
 parser.add_argument("--cuda", help="whether to use cuda", action="store_true")
 
 args = parser.parse_args()
@@ -29,7 +29,7 @@ task = args.task
 hid = args.hid
 emb = args.hid
 lr = args.lr
-time_fn = args.time
+time_ver = args.time_ver
 cuda_flag = args.cuda
 epochs = args.epoch
 
@@ -39,7 +39,7 @@ if ver=='retain':
     model = RETAIN(emb, hid, 1, cuda_flag)
 elif ver=='ex':
     from models.retain_ex import RETAIN_EX
-    model = RETAIN_EX(emb, hid, 1, cuda_flag=cuda_flag, time_ver=time_fn)
+    model = RETAIN_EX(emb, hid, 1, cuda_flag=cuda_flag, time_ver=time_ver)
 elif ver=='gru':
     from models.gru_bidirectional import GRU
     model = GRU(emb, hid, 1, cuda_flag)
@@ -81,7 +81,7 @@ def print_and_save(log_file,string):
     with open(log_file,'a') as f:
         f.write(string+'\n')
 
-def calculate(X,y,model,ver,cuda_flag,time_fn):
+def calculate(X,y,model,ver,cuda_flag,time_ver):
     date_list = []
     input_list = []
     for sample in X:
@@ -93,7 +93,7 @@ def calculate(X,y,model,ver,cuda_flag,time_fn):
     if cuda_flag:
         targets = targets.cuda()
     if (ver=='ex'):
-        if time_fn==1:
+        if time_ver==1:
             dates = Variable(torch.Tensor(date_list), requires_grad=False)
             if cuda_flag:
                 dates = dates.cuda()
