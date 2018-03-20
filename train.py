@@ -13,13 +13,14 @@ from functions import get_dates
 # from sklearn.metrics import roc_auc_score as AUC
 # from sklearn.metrics import average_precision_score as AUCPR
 
+torch.manual_seed(1000)
 parser = argparse.ArgumentParser()
 parser.add_argument("--ver", help="which model to use", type=str)
 parser.add_argument("--task", help="which data to test on", type=str)
 parser.add_argument("--hid", help="hidden size of model", type=int)
 parser.add_argument("--epoch", help="number of epochs", default=30, type=int)
 parser.add_argument("--lr", help="learning rate size", type=float)
-parser.add_argument("--time", help="which time function to use (0:none, 1:decay, 2:add)", type=int)
+parser.add_argument("--time", help="which time function to use (0:none, 1:add)", type=int)
 parser.add_argument("--cuda", help="whether to use cuda", action="store_true")
 
 args = parser.parse_args()
@@ -121,6 +122,7 @@ for epoch in range(epochs):
         loss.backward()
         loss_list.append(loss.data[0])
         opt.step()
+        gc.collect()
         if (cnt%stamp==0):
             log_data = "Epoch %d,[%d],[%d],%1.3f" %(epoch+1,i+1,cnt,np.mean(loss_list))
             loss_list = []
