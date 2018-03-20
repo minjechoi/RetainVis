@@ -15,12 +15,12 @@ from functions import get_dates
 
 torch.manual_seed(1000)
 parser = argparse.ArgumentParser()
-parser.add_argument("--ver", help="which model to use", type=str)
-parser.add_argument("--task", help="which data to test on", type=str)
-parser.add_argument("--hid", help="hidden size of model", type=int)
+parser.add_argument("--ver", help="which model to use", type=str, default='retain')
+parser.add_argument("--task", help="which data to test on", type=str, default='I50')
+parser.add_argument("--hid", help="hidden size of model", type=int, default=128)
 parser.add_argument("--epoch", help="number of epochs", default=30, type=int)
-parser.add_argument("--lr", help="learning rate size", type=float)
-parser.add_argument("--time_ver", help="which time function to use (0:none, 1:add)", type=int)
+parser.add_argument("--lr", help="learning rate size", type=float, default=0.001)
+parser.add_argument("--time_ver", help="which time function to use (0:none, 1:add)", type=int, default=0)
 parser.add_argument("--cuda", help="whether to use cuda", action="store_true")
 
 args = parser.parse_args()
