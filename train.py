@@ -39,7 +39,7 @@ if ver=='retain':
     model = RETAIN(emb, hid, 1, cuda_flag)
 elif ver=='ex':
     from models.retain_ex import RETAIN_EX
-    model = RETAIN_EX(emb, hid, 1, cuda_flag, time_fn)
+    model = RETAIN_EX(emb, hid, 1, cuda_flag=cuda_flag, bidirectional=True,time_fn)
 elif ver=='gru':
     from models.gru_bidirectional import GRU
     model = GRU(emb, hid, 1, cuda_flag)
@@ -53,10 +53,10 @@ if cuda_flag:
 # set save directories
 if ver=='ex':
     # e.g. experiments/H26/ex-1_128_0.01/
-    save_dir = 'experiments/%s/%s-%d_%d_%1.4f'%(task,ver,time_fn,hid,lr)
+    save_dir = 'experiments/%s/%s-%d_%d_%s'%(task,ver,time_fn,hid,str(lr))
 else:
     # e.g. experiments/H26/gru_128_0.01/
-    save_dir = 'experiments/%s/%s_%d_%1.4f'%(task,ver,hid,lr)
+    save_dir = 'experiments/%s/%s_%d_%s'%(task,ver,hid,str(lr))
 log_dir = os.path.join(save_dir,'logs')
 weight_dir = os.path.join(save_dir,'saved_weights')
 if not os.path.exists(log_dir):
@@ -69,8 +69,8 @@ val_file =os.path.join(log_dir,'val.txt')
 # load data
 with open('data/%s/train.pckl'%task,'rb') as f:
     tr_data = pickle.load(f)
-with open('data/%s/val.pckl'%task,'rb') as f:
-    val_data = pickle.load(f)
+# with open('data/%s/val.pckl'%task,'rb') as f:
+#     val_data = pickle.load(f)
 
 # set optimizer and loss
 criterion = nn.BCELoss()
@@ -81,7 +81,7 @@ def print_and_save(log_file,string):
     with open(log_file,'a') as f:
         f.write(string+'\n')
 
-def calculate(X,y,model,ver,cuda_flag):
+def calculate(X,y,model,ver,cuda_flag,time_fn):
     date_list = []
     input_list = []
     for sample in X:
@@ -117,7 +117,7 @@ for epoch in range(epochs):
         X,y = tr_data[i]
         cnt+=1
         model.zero_grad()
-        outputs, targets = calculate(X,y,model,ver,cuda_flag)
+        outputs, targets = calculate(X,y,model,ver,cuda_flag,time_fn)
         loss = criterion(outputs,targets)
         loss.backward()
         loss_list.append(loss.data[0])
