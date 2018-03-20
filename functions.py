@@ -83,3 +83,28 @@ def get_dates(date_list):
         start = date
         tmp1.append(diff)
     return np.array(tmp1)
+
+def calculate(X,y,model,ver,cuda_flag,time_fn):
+    # calculates a single batch
+    date_list = []
+    input_list = []
+    for sample in X:
+        _,dates_,inputs_,_ = zip(*sample)
+        date_list.append(get_dates(dates_))
+        input_list.append(list(inputs_))
+    inputs = model.list_to_tensor(input_list)
+    targets = Variable(torch.Tensor(np.array(y,dtype=int)))
+    if cuda_flag:
+        targets = targets.cuda()
+    if (ver=='ex'):
+        if time_fn==1:
+            dates = Variable(torch.Tensor(date_list), requires_grad=False)
+            if cuda_flag:
+                dates = dates.cuda()
+        else:
+            dates = date_list
+        outputs = model(inputs,dates)
+    else:
+        outputs = model(inputs)
+    outputs = F.sigmoid(outputs.squeeze())
+    return outputs, targets
