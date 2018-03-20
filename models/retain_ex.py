@@ -85,5 +85,8 @@ class RETAIN_EX(nn.Module):
         B = self.Beta[u][v] # [h]
         W_emb = self.emb2[i] # [h]
         W = self.W_out.weight[o] # [h]
-        out = a*torch.dot(W,(B*W_emb))
-        return out
+        out = a*(B*W_emb)
+        if self.release:
+            out = self.out
+        # out = a*torch.dot(W,(B*W_emb))
+        return torch.dot(W,out)
