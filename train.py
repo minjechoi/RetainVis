@@ -39,7 +39,7 @@ if ver=='retain':
     model = RETAIN(emb, hid, 1, cuda_flag)
 elif ver=='ex':
     from models.retain_ex import RETAIN_EX
-    model = RETAIN_EX(emb, hid, 1, cuda_flag=cuda_flag, bidirectional=True,time_fn)
+    model = RETAIN_EX(emb, hid, 1, cuda_flag=cuda_flag, time_ver=time_fn)
 elif ver=='gru':
     from models.gru_bidirectional import GRU
     model = GRU(emb, hid, 1, cuda_flag)
