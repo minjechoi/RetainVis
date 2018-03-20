@@ -7,7 +7,7 @@ import time
 
 class RETAIN_EX(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes,
-        cuda_flag=False, bidirectional=True, time_ver=0):
+        cuda_flag=False, bidirectional=True, time_ver=1):
         super(RETAIN_EX,self).__init__()
         self.hidden_size = hidden_size
         self.input_size = input_size
@@ -36,7 +36,7 @@ class RETAIN_EX(nn.Module):
             self.Wb = nn.Linear(hidden_size,hidden_size,bias=False)
         self.W_out = nn.Linear(hidden_size,num_classes,bias=False)
 
-    def forward(self, inputs, timestamps):
+    def forward(self, inputs, dates):
         # get embedding using self.emb
         b,seq,features = inputs.size()
         embedded = torch.mm(inputs.view(-1,features),self.emb1).view(b,seq,-1)
@@ -46,7 +46,6 @@ class RETAIN_EX(nn.Module):
 
         # get alpha coefficients
         if self.time_ver==1:
-            dates = timestamps
             dates = torch.stack([dates,1/dates,1/torch.log(np.e+dates)],2) # [b x seq x 3]
             embedded = torch.cat([embedded,dates],2)
         outputs1 = self.RNN1(embedded)[0]
