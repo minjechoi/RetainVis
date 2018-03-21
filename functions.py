@@ -4,8 +4,6 @@ import numpy as np
 import torch
 from torch.nn import functional as F
 from torch.autograd import Variable
-from sklearn.metrics import roc_auc_score as AUC
-from sklearn.metrics import average_precision_score as AP
 
 # removes values corresponding to "unknown"
 def remove_unknown(lst):
@@ -115,6 +113,9 @@ def calculate(X,y,model,ver,cuda_flag,time_fn):
     return outputs, targets
 
 def evaluate(data,model,ver,cuda_flag,time_fn):
+    from sklearn.metrics import roc_auc_score as AUC
+    from sklearn.metrics import average_precision_score as AP
+
     correct_list = []
     score_list = []
     for (X,y) in data:
