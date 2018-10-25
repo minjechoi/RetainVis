@@ -9,9 +9,17 @@ We have recently seen many successful applications of recurrent neural networks 
 - Python 3.5+
 - Pytorch 0.1.0
 
+#### Files:
+- train.py
+  - code for training model on prediction task
+- models/retain_ex.py
+  - code for RetainEX model
+- models/data_loader.py
+  - code for loading and preprocessing dataset
+
 #### Dataset:
 - Records of patient visits provided by the Health Insurance Review & Assessment Service (HIRA)
-- Unavailable for public use at the moment...
+- Unavailable for public use, can be replaced with other EMR datasets
 
 Baseline model:
 - RETAIN: An Interpretable Predictive Model for Healthcare using Reverse Time Attention Mechanism (NIPS'16). Choi et al.
