@@ -1,4 +1,4 @@
-## Visualizing RETAIN interpretation results of Electronic Health Record (EHR) data
+## RetainVis: Visual Analytics with Interpretable and Interactive Recurrent Neural Networks on Electronic Medical Records
 
 Dependencies:
 - Python 3.5+
